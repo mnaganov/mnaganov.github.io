@@ -1,7 +1,7 @@
 # Headphone Dummy Load Power Calculations
 
 After I've shown my [Headphone Dummy
-Load](/2016/11/my-take-on-headphone-dummy-load.html)
+Load](/2016/11/my-take-on-headphone-dummy-load.md)
 post to Warren, he kindly noted that using **35 W** power resistors for
 this project is probably an overkill and suggested to do calculations on
 the power rating of the PCB I used.
