@@ -1,5 +1,7 @@
 Blog posts
 
+* 2017
+  - [2017/01 - Reconstructing SPL Phonitor Mini Crossfeed with DSP](2017/01/reconstructing-spl-phonitor-mini.md)
 * 2016
   - [2016/12 - Explaining How Bass Boost in CMoyBB Works](2016/12/explaining-how-bass-boost-in-cmoybb.md)
   - [2016/11 - JDS Labs CMoyBB DIY](2016/11/jds-labs-cmoybb-diy.md)
