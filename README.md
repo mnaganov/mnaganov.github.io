@@ -1,6 +1,7 @@
 Blog posts
 
 * 2017
+  - [2017/05 - Clipping In Sampling Rate Converters](2017/05/clipping-in-sampling-rate-converters.md)
   - [2017/05 - DAC Clipping on Intersample Peaks](2017/05/dac-clipping-on-intersample-peaks.md)
   - [2017/04 - Headphone Amplifier ABX Testing Switch Box](2017/04/headphone-amplifier-abx-testing-switch.md)
   - [2017/04 - T-Cable for Output Level Measurements and Surprise from Benchmark](2017/04/t-cable-for-output-level-measurements.md)
