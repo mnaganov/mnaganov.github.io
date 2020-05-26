@@ -1,6 +1,10 @@
 Blog posts
 
 * 2017
+  - [2017/09 - Challenges While Performing Crossfeed Measurements](2017/09/challenges-while-performing-crossfeed.md)
+  - [2017/08 - MiniDSP HA-DSP First Impressions](2017/08/minidsp-ha-dsp-first-impressions.md)
+  - [2017/07 - Wiistar 5.1 Audio Decoder Teardown](2017/07/wiistar-51-audio-decoder-teardown.md)
+  - [2017/06 - Little Toolbox for Stereo Filters Analysis](2017/06/little-toolbox-for-stereo-filters.md)
   - [2017/05 - Clipping In Sampling Rate Converters](2017/05/clipping-in-sampling-rate-converters.md)
   - [2017/05 - DAC Clipping on Intersample Peaks](2017/05/dac-clipping-on-intersample-peaks.md)
   - [2017/04 - Headphone Amplifier ABX Testing Switch Box](2017/04/headphone-amplifier-abx-testing-switch.md)
