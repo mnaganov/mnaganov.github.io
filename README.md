@@ -1,6 +1,10 @@
 Blog posts
 
 * 2017
+  - [2017/12 - On Headphone Normalization Part 2](2017/12/on-headphone-normalization-part-2.md)
+  - [2017/12 - On Headphone Normalization](2017/12/on-headphone-normalization.md)
+  - [2017/12 - Why I Don't Save Filtered Samples as 16-bit PCM Anymore](2017/12/why-i-dont-save-filtered-samples-as-16.md)
+  - [2017/10 - Re-creating Phonitor Mini with Software DSP](2017/10/re-creating-phonitor-mini-with-software.md)
   - [2017/09 - Challenges While Performing Crossfeed Measurements](2017/09/challenges-while-performing-crossfeed.md)
   - [2017/08 - MiniDSP HA-DSP First Impressions](2017/08/minidsp-ha-dsp-first-impressions.md)
   - [2017/07 - Wiistar 5.1 Audio Decoder Teardown](2017/07/wiistar-51-audio-decoder-teardown.md)
