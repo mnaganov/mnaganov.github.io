@@ -1,5 +1,9 @@
 Blog posts
 
+* 2018
+  - [2018/02 - 112dB Redline Monitor Plugin](2018/02/112db-redline-monitor-plugin.md)
+  - [2018/01 - BBE 802 Sonic Maximizer Measurements and Teardown](2018/01/bbe-802-sonic-maximizer-measurements.md)
+  - [2018/01 - BBE 282i Sonic Maximizer Measurements](2018/01/bbe-282i-sonic-maximizer-measurements.md)
 * 2017
   - [2017/12 - On Headphone Normalization Part 2](2017/12/on-headphone-normalization-part-2.md)
   - [2017/12 - On Headphone Normalization](2017/12/on-headphone-normalization.md)
