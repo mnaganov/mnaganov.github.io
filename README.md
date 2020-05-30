@@ -1,6 +1,11 @@
 Blog posts
 
 * 2018
+  - [2018/04 - Making friends with Windows and ARTA](2018/04/making-friends-with-windows-and-arta.md)
+  - [2018/04 - Peter Millet's Soundcard Interface, Part 2](2018/04/peter-millets-soundcard-interface-part-2.md)
+  - [2018/03 - Peter Millet's Soundcard Interface](2018/03/peter-millets-soundcard-interface.md)
+  - [2018/02 - JDS Labs Subjective3, Part 2](2018/02/jds-labs-subjective3-part-2.md)
+  - [2018/02 - JDS Labs Subjective3 Tone Control](2018/02/jds-labs-subjective3-tone-control.md)
   - [2018/02 - 112dB Redline Monitor Plugin](2018/02/112db-redline-monitor-plugin.md)
   - [2018/01 - BBE 802 Sonic Maximizer Measurements and Teardown](2018/01/bbe-802-sonic-maximizer-measurements.md)
   - [2018/01 - BBE 282i Sonic Maximizer Measurements](2018/01/bbe-282i-sonic-maximizer-measurements.md)
