@@ -16,7 +16,7 @@ a general connection scheme:
 
 The amplifier under test is connected to a load. The load can be either
 real speaker or [a dummy
-load](http://melp242.blogspot.com/2016/11/my-take-on-headphone-dummy-load.html)—a
+load](/2016/11/my-take-on-headphone-dummy-load.md)—a
 resistor, for example. The soundcard interface is connected in parallel
 to the load. Since the interface's input impedance is about **100 kOhm**,
 it draws only little current by itself (for a comparison,
