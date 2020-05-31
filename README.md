@@ -1,6 +1,7 @@
 Blog posts
 
 * 2018
+  - [2018/05 - More Measurements of MOTU Microbook and Millet's Soundcard Interface](2018/05/more-measurements-of-motu-microbook-and.md)
   - [2018/04 - Making friends with Windows and ARTA](2018/04/making-friends-with-windows-and-arta.md)
   - [2018/04 - Peter Millet's Soundcard Interface, Part 2](2018/04/peter-millets-soundcard-interface-part-2.md)
   - [2018/03 - Peter Millet's Soundcard Interface](2018/03/peter-millets-soundcard-interface.md)
