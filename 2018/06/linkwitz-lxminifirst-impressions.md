@@ -118,7 +118,7 @@ where they do their job better.
 The key to understanding why all those speakers have different ability
 to resolve the sound stage in my room lies in the character of their
 interaction with it. From [my previous comparison of my JBLs with
-KRKs](/2017/02/measurements-jbl-lsr-305-vs-krk-rokit.html)
+KRKs](/2017/02/measurements-jbl-lsr-305-vs-krk-rokit.md)
 I know that JBLs have wider dispersion, due to the construction of their
 high frequency horn. And [LXmini has the narrowest radiation
 pattern—dipole (figure
