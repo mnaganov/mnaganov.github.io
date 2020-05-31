@@ -1,6 +1,8 @@
 Blog posts
 
 * 2018
+  - [2018/07 - My Setup for Headphone Listening, Part 2](2018/07/my-setup-for-headphone-listening-part-2.md)
+  - [2018/06 - My Setup for Headphone Listening, Part 1](2018/06/my-setup-for-headphone-listening-part-1.md)
   - [2018/06 - Measuring AMB M3 vs. SPL Phonitor Mini](2018/06/measuring-amb-m3-vs-spl-phonitor-mini.md)
   - [2018/06 - Linkwitz LXmini—First Impressions](2018/06/linkwitz-lxminifirst-impressions.md)
   - [2018/05 - Measuring Behringer UCA202](2018/05/measuring-behringer-uca202.md)
