@@ -1,6 +1,11 @@
 Blog posts
 
+* 2019
+  - [2019/01 - Automatic Estimation of Signal Round Trip Delay, Part 2b](2019/01/automatic-estimation-of-signal-round.md)
 * 2018
+  - [2018/12 - Automatic Estimation of Signal Round Trip Delay, Part 2](2018/12/automatic-estimation-of-signal-round_30.md)
+  - [2018/12 - Automatic Estimation of Signal Round Trip Delay, Part 1](2018/12/automatic-estimation-of-signal-round.md)
+  - [2018/07 - Recreating miniDSP filters with Acourate](2018/07/recreating-minidsp-filters-with-acourate.md)
   - [2018/07 - My Setup for Headphone Listening, Part 2](2018/07/my-setup-for-headphone-listening-part-2.md)
   - [2018/06 - My Setup for Headphone Listening, Part 1](2018/06/my-setup-for-headphone-listening-part-1.md)
   - [2018/06 - Measuring AMB M3 vs. SPL Phonitor Mini](2018/06/measuring-amb-m3-vs-spl-phonitor-mini.md)
