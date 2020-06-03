@@ -1,6 +1,8 @@
 Blog posts
 
 * 2019
+  - [2019/02 - rvalue references and move semantics in C++11, Part 2](2019/02/rvalue-references-and-move-semantics-in_9.md)
+  - [2019/02 - rvalue references and move semantics in C++11, Part 1](2019/02/rvalue-references-and-move-semantics-in.md)
   - [2019/01 - Automatic Estimation of Signal Round Trip Delay, Part 2b](2019/01/automatic-estimation-of-signal-round.md)
 * 2018
   - [2018/12 - Automatic Estimation of Signal Round Trip Delay, Part 2](2018/12/automatic-estimation-of-signal-round_30.md)
