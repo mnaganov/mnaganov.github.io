@@ -1,6 +1,8 @@
 Blog posts
 
 * 2019
+  - [2019/09 - AES Conference on Headphones, Part 2—ANC, MEMS, Manufacturing](2019/09/aes-conference-on-headphones-part-2anc.md)
+  - [2019/09 - AES Conference on Headphones, Part 1—Binaural Audio](2019/09/aes-conference-on-headphones-part.md)
   - [2019/05 - Measuring Bridged and "Balanced" Amplifier Outputs](2019/05/measuring-bridged-and-balanced.md)
   - [2019/03 - Amp & DAC box for LXmini (miniBox)](2019/03/amp-dac-box-for-lxmini-minibox.md)
   - [2019/02 - rvalue references and move semantics in C++11, Part 2](2019/02/rvalue-references-and-move-semantics-in_9.md)
