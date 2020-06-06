@@ -1,6 +1,9 @@
 Blog posts
 
 * 2019
+  - [2019/12 - Understanding Microphone Calibration](2019/12/understanding-microphone-calibration.md)
+  - [2019/10 - Measuring QSC SPA4-100 Amplifier and Understanding Driving Modes of Speakers](2019/10/measuring-qsc-spa4-100-amplifier-and.md)
+  - [2019/10 - Case Study of LXmini in Our New Living Room](2019/10/case-study-of-lxmini-in-our-new-living.md)
   - [2019/09 - AES Conference on Headphones, Part 2—ANC, MEMS, Manufacturing](2019/09/aes-conference-on-headphones-part-2anc.md)
   - [2019/09 - AES Conference on Headphones, Part 1—Binaural Audio](2019/09/aes-conference-on-headphones-part.md)
   - [2019/05 - Measuring Bridged and "Balanced" Amplifier Outputs](2019/05/measuring-bridged-and-balanced.md)
