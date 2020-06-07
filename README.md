@@ -1,6 +1,9 @@
 Blog posts
 
 * 2020
+  - [2020/05 - Sennheiser Ambeo Headset Applications](2020/05/sennheiser-ambeo-headset-applications.md)
+  - [2020/04 - Improving audio in Mercedes GLK350 (X204), Part 2](2020/04/improving-audio-in-mercedes-glk350-x204.md)
+  - [2020/03 - Improving audio in Mercedes GLK350 (X204), Part 1](2020/03/improving-audio-in-mercedes-glk350-x204.md)
   - 2020/02 - Understanding Git: [Part 1](2020/02/understanding-git-part-1.md), [Part 2](2020/02/understanding-git-part-2.md), [Part 3](2020/02/understanding-git-part-3.md)
 * 2019
   - [2019/12 - Understanding Microphone Calibration](2019/12/understanding-microphone-calibration.md)
