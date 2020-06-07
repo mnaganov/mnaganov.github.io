@@ -1,19 +1,18 @@
 Blog posts
 
+* 2020
+  - 2020/02 - Understanding Git: [Part 1](2020/02/understanding-git-part-1.md), [Part 2](2020/02/understanding-git-part-2.md), [Part 3](2020/02/understanding-git-part-3.md)
 * 2019
   - [2019/12 - Understanding Microphone Calibration](2019/12/understanding-microphone-calibration.md)
   - [2019/10 - Measuring QSC SPA4-100 Amplifier and Understanding Driving Modes of Speakers](2019/10/measuring-qsc-spa4-100-amplifier-and.md)
   - [2019/10 - Case Study of LXmini in Our New Living Room](2019/10/case-study-of-lxmini-in-our-new-living.md)
-  - [2019/09 - AES Conference on Headphones, Part 2—ANC, MEMS, Manufacturing](2019/09/aes-conference-on-headphones-part-2anc.md)
-  - [2019/09 - AES Conference on Headphones, Part 1—Binaural Audio](2019/09/aes-conference-on-headphones-part.md)
+  - 2019/09 - AES Conference on Headphones: [Part 1—Binaural Audio](2019/09/aes-conference-on-headphones-part.md), [Part 2—ANC, MEMS, Manufacturing](2019/09/aes-conference-on-headphones-part-2anc.md)
   - [2019/05 - Measuring Bridged and "Balanced" Amplifier Outputs](2019/05/measuring-bridged-and-balanced.md)
   - [2019/03 - Amp & DAC box for LXmini (miniBox)](2019/03/amp-dac-box-for-lxmini-minibox.md)
-  - [2019/02 - rvalue references and move semantics in C++11, Part 2](2019/02/rvalue-references-and-move-semantics-in_9.md)
-  - [2019/02 - rvalue references and move semantics in C++11, Part 1](2019/02/rvalue-references-and-move-semantics-in.md)
+  - 2019/02 - rvalue references and move semantics in C++11: [Part 1](2019/02/rvalue-references-and-move-semantics-in.md), [Part 2](2019/02/rvalue-references-and-move-semantics-in_9.md)
   - [2019/01 - Automatic Estimation of Signal Round Trip Delay, Part 2b](2019/01/automatic-estimation-of-signal-round.md)
 * 2018
-  - [2018/12 - Automatic Estimation of Signal Round Trip Delay, Part 2](2018/12/automatic-estimation-of-signal-round_30.md)
-  - [2018/12 - Automatic Estimation of Signal Round Trip Delay, Part 1](2018/12/automatic-estimation-of-signal-round.md)
+  - 2018/12 - Automatic Estimation of Signal Round Trip Delay: [Part 1](2018/12/automatic-estimation-of-signal-round.md), [Part 2](2018/12/automatic-estimation-of-signal-round_30.md)
   - [2018/07 - Recreating miniDSP filters with Acourate](2018/07/recreating-minidsp-filters-with-acourate.md)
   - [2018/07 - My Setup for Headphone Listening, Part 2](2018/07/my-setup-for-headphone-listening-part-2.md)
   - [2018/06 - My Setup for Headphone Listening, Part 1](2018/06/my-setup-for-headphone-listening-part-1.md)
@@ -24,14 +23,12 @@ Blog posts
   - [2018/04 - Making friends with Windows and ARTA](2018/04/making-friends-with-windows-and-arta.md)
   - [2018/04 - Peter Millet's Soundcard Interface, Part 2](2018/04/peter-millets-soundcard-interface-part-2.md)
   - [2018/03 - Peter Millet's Soundcard Interface](2018/03/peter-millets-soundcard-interface.md)
-  - [2018/02 - JDS Labs Subjective3, Part 2](2018/02/jds-labs-subjective3-part-2.md)
-  - [2018/02 - JDS Labs Subjective3 Tone Control](2018/02/jds-labs-subjective3-tone-control.md)
+  - 2018/02 - JDS Labs Subjective3 Tone Control: [Part1](2018/02/jds-labs-subjective3-tone-control.md), [Part 2](2018/02/jds-labs-subjective3-part-2.md)
   - [2018/02 - 112dB Redline Monitor Plugin](2018/02/112db-redline-monitor-plugin.md)
   - [2018/01 - BBE 802 Sonic Maximizer Measurements and Teardown](2018/01/bbe-802-sonic-maximizer-measurements.md)
   - [2018/01 - BBE 282i Sonic Maximizer Measurements](2018/01/bbe-282i-sonic-maximizer-measurements.md)
 * 2017
-  - [2017/12 - On Headphone Normalization Part 2](2017/12/on-headphone-normalization-part-2.md)
-  - [2017/12 - On Headphone Normalization](2017/12/on-headphone-normalization.md)
+  - 2017/12 - On Headphone Normalization: [Part 1](2017/12/on-headphone-normalization.md), [Part 2](2017/12/on-headphone-normalization-part-2.md)
   - [2017/12 - Why I Don't Save Filtered Samples as 16-bit PCM Anymore](2017/12/why-i-dont-save-filtered-samples-as-16.md)
   - [2017/10 - Re-creating Phonitor Mini with Software DSP](2017/10/re-creating-phonitor-mini-with-software.md)
   - [2017/09 - Challenges While Performing Crossfeed Measurements](2017/09/challenges-while-performing-crossfeed.md)
