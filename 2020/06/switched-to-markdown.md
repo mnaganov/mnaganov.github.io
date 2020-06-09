@@ -170,7 +170,7 @@ This is the result:
 
 [<img src="https://1.bp.blogspot.com/-SFV-p8ko81g/Xt8TQ1CnGCI/AAAAAAAARBY/4GeLwzfOumIqZsKeUJOcrdxFKmQosnDRACK4BGAsYHg/w400-h371/blogger-and-github.png" height="371" width="400" />](https://1.bp.blogspot.com/-SFV-p8ko81g/Xt8TQ1CnGCI/AAAAAAAARBY/4GeLwzfOumIqZsKeUJOcrdxFKmQosnDRACK4BGAsYHg/s782/blogger-and-github.png)
 
-The GitHub mirror of this blog is now located here: https://github.com/mnaganov/mnaganov.github.io
+The GitHub mirror of this blog is now located here: https://mnaganov.github.io
 
 ## Testimonials
 
