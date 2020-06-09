@@ -1,6 +1,7 @@
-Blog posts
+This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2020
+  - Jul - [Switched to Markdown](2020/07/switched-to-markdown.md)
   - May - [Sennheiser Ambeo Headset Applications](2020/05/sennheiser-ambeo-headset-applications.md)
   - Mar–Apr - Improving audio in Mercedes GLK350 (X204): [Part 1](2020/03/improving-audio-in-mercedes-glk350-x204.md), [Part 2](2020/04/improving-audio-in-mercedes-glk350-x204.md)
   - Feb - Understanding Git: [Part 1](2020/02/understanding-git-part-1.md), [Part 2](2020/02/understanding-git-part-2.md), [Part 3](2020/02/understanding-git-part-3.md)
