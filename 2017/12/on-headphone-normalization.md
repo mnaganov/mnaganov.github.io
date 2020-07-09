@@ -11,7 +11,7 @@ the model range.
 
 Several factors comprise the sound signature: frequency response, added
 distortions, degree of matching between left and right drivers. Unlike
-the world of loudspeaker makers, which is moving towards the acceptance
+the world of loudspeaker makers, which is moving towards the acceptance
 that the speaker frequency response should be a smooth slope downwards
 from low to high frequencies, the world of headphone manufacturers is
 still struggling to figure out the standard for the frequency response

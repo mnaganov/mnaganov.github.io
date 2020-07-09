@@ -367,7 +367,9 @@ Some annoyances that I have noticed with AV7704:
   sequence, and this is ridiculous as D+M is aware of this,
   and the fix is supposedly one line of code; at least, the
   version of HEOS app built into the receiver doesn't have
-  this problem;
+  this problem; **UPDATE:** HEOS Android app from Jun 6, 2020
+  (1.562.200) plays album tracks in correct sequence,
+  thanks D+M for the fix!
 * HEOS app is limited to stereo tracks only;
 * there is no indication of the current Zone 2 settings
   neither on the AVR panel nor as OSD on the Zone 2 TV, and

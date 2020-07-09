@@ -316,7 +316,7 @@ on top of it. Then I was playing test sweeps via EL-8 and measuring
 their output using Ambeo. Crazy, right? I don't think anyone at
 Sennheiser were considering this application of the Ambeo headset.
 However, as the last graph demonstrates, this setup can actually be used
-for measuring acoustically the effects of headphone equalization.
+for measuring acoustically the effects of headphone equalization.
 
 Does it mean this **$200–$300** headset plus your own head can replace a
 head simulator for over-ear headphone measurements? Not quite. The trick
