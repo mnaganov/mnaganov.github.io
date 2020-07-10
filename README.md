@@ -3,7 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2020
-  - Jul [DIY Headphone Equalization](2020/07/diy-headphone-equalization.md)
+  - Jul - [DIY Headphone Equalization](2020/07/diy-headphone-equalization.md)
   - Jun
      - [Marantz AV7704 As An Audio Hub](2020/06/marantz-av7704-as-audio-hub.md)
      - [Switched to Markdown](2020/06/switched-to-markdown.md)
