@@ -400,4 +400,5 @@ It confirms the **3 dB** boost, but not the middle section scoop.
 Although KaiSc also mentions compression effects from the Cipher DSP at
 high volume. Since I was testing EL-8 at high volume to obtain adequate
 free-field output, it's possible that the DSP has thrown in some
-compression at this point.
+compression at this point. **UPDATE:** the "scoop" is a measurement error,
+see [my post](/2020/07/diy-headphone-equalization.md).
