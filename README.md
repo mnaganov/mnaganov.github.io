@@ -2,8 +2,10 @@
 
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
+* 2021
+  - Jan - [Teensy Project: Talking ABC](2021/01/teensy-project-talking-abc.md)
 * 2020
-  - Sep-Oct - [Audio Output on Teensy 4.x Boards](2020/09/audio-output-on-teensy-4x-boards.md)
+  - Sep-Oct - [Audio Output on Teensy 4.x Boards](2020/10/audio-output-on-teensy-4x-boards.md)
   - Aug - [On Keyboards](2020/08/on-keyboards.md)
   - Jul - [DIY Headphone Equalization](2020/07/diy-headphone-equalization.md)
   - Jun
