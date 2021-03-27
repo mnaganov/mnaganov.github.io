@@ -23,7 +23,7 @@ physical source formed in our mind. We also see the speaker, and the perceived
 sound source will be in our mind anchored, or *localized* to the visual image of
 the speaker.
 
-[[single-speaker.gif]]
+[![](https://1.bp.blogspot.com/-AGGY4ZPT0yA/YF9jKs3CbGI/AAAAAAAAS5Q/jd59kbhZhnofjKurWmpyuc_sXmOWFJIQQCLcBGAsYHQ/s16000/single-speaker.gif)](https://1.bp.blogspot.com/-AGGY4ZPT0yA/YF9jKs3CbGI/AAAAAAAAS5Q/jd59kbhZhnofjKurWmpyuc_sXmOWFJIQQCLcBGAsYHQ/s348/single-speaker.gif)
 
 This audio perception has a lot of associated attributes in our mind. Some of
 them originate in the sound that is being reproduced by the speaker, like it's
@@ -47,7 +47,7 @@ from both speakers and from wall reflections. With a good stereo setup the
 listener can forget about the existence of the speakers and completely
 disentangle them from the sound they are producing.
 
-[[stereo-speakers.gif]]
+[![](https://1.bp.blogspot.com/-tmf8mKdBIxQ/YF9jPFIRzzI/AAAAAAAAS5U/1WF7QH0hy-sh7LX82UpNinlkgcmYl6kmACLcBGAsYHQ/s16000/stereo-speakers.gif)](https://1.bp.blogspot.com/-tmf8mKdBIxQ/YF9jPFIRzzI/AAAAAAAAS5U/1WF7QH0hy-sh7LX82UpNinlkgcmYl6kmACLcBGAsYHQ/s773/stereo-speakers.gif)
 
 Through the long history of the development of stereo recording and playback
 audio engineers learned how to use the stereo speaker arrangement for creating
@@ -68,8 +68,9 @@ However, even on stereo systems some of advanced sound engineers manage to
 create phantom sources that are located above the speakers, to the side of, or
 in a close proximity to the listener. These effects are achieved by applying
 frequency filtering which imitates the physical filters of ear pinnaes and of
-the head. Some example of tracks that I personally like are "Edge of Life"
-by Recoil (Alan Welder?) and "?" by Hol Baumann [Links !!!].
+the head. Some example of tracks that I personally like are ["Edge of Life" by
+Recoil](https://youtu.be/uI5qpjLoz2o) and ["One Step Behind" by Hol
+Baumann](https://youtu.be/DVWjFC6NvvM).
 
 This brings us the the topic of *HRTF* (Head-Related Transfer Function). It is
 used a lot in the context of AR/VR, however, for our particular topic what we
@@ -89,7 +90,10 @@ S. Linkwitz](http://www.linkwitzlab.com/TMT-Leipzig'10/TMT-Hearing%20spatial%20
 is turning one's head from side to side while listening to music.  Although the
 sound that reaches one's ear drums changes dramatically, the perception of the
 timbre remains stable and the sound source just changes its position in the
-auditory image. This is a very interesting effect.
+auditory image. However, the filter of the auditory system doesn't restore the
+timbre completely. If you try compare the auditory image of the noise from ocean
+waves as heard facing them, and then from the back, the latter sound will be
+noticeably lacking the boost of high frequencies that our ears pinnaes add.
 
 It is important to note that due to assymetry of human bodies the physical
 filters for the left and right ears are different, and so are the auditory
@@ -104,7 +108,7 @@ to derive the direction of the sound without rotating their heads.
 Very simplified model of HRTF filters at work ([after
 D. Griesinger](http://www.aes.org/e-lib/browse.cfm?elib=14964)) is as follows:
 
-[[Picture]]
+[![](https://1.bp.blogspot.com/-HPdtELdp2WI/YF9jZumk-NI/AAAAAAAAS5Y/8xlin3utZykWcI_xHxvpSV89Cylfkj7mACLcBGAsYHQ/s16000/Human-Hearing-Model.gif)](https://1.bp.blogspot.com/-HPdtELdp2WI/YF9jZumk-NI/AAAAAAAAS5Y/8xlin3utZykWcI_xHxvpSV89Cylfkj7mACLcBGAsYHQ/s700/Human-Hearing-Model.gif)
 
 The "Adaptive AGC" block helps to restore alterations of frequency response due
 to environmental conditions. This is similar to "auto white balance" function of
@@ -123,7 +127,7 @@ misleading cues to the auditory system and it can't anymore use the localization
 mechanisms beyond those relying on simple interaural level difference. As a
 result, the auditory image "resets" to "inside the head" sensation.
 
-[[headphones.gif]]
+[![](https://1.bp.blogspot.com/-Zci46x3Ks0k/YF9jgowQ7xI/AAAAAAAAS5g/kLeXjCD14kot5ofhj-mw8JqgTcVtFgGxgCLcBGAsYHQ/s16000/headphones.gif)](https://1.bp.blogspot.com/-Zci46x3Ks0k/YF9jgowQ7xI/AAAAAAAAS5g/kLeXjCD14kot5ofhj-mw8JqgTcVtFgGxgCLcBGAsYHQ/s312/headphones.gif)
 
 Another difference from stereo speaker playback is that in headphones left and
 right channels of the recording do not "leak" to contra-lateral ears. This is a
@@ -163,7 +167,7 @@ on more realistic HRTFs. For example, below are HRTF filters used by my [Marantz
 AV7704](/2020/06/marantz-av7704-as-audio-hub.md) when playing a 5.1 multi-channel
 program into the headphone output in "Virtual" mode:
 
-[[AV7704-5_1.png]]
+[![](https://1.bp.blogspot.com/-wd8IaLa0KEA/YF9jpe2ooDI/AAAAAAAAS5k/F2P_U6AAFHMfxr74nfp1ABhZ5_gKjNMtwCLcBGAsYHQ/s16000/AV7704-5_1.png)](https://1.bp.blogspot.com/-wd8IaLa0KEA/YF9jpe2ooDI/AAAAAAAAS5k/F2P_U6AAFHMfxr74nfp1ABhZ5_gKjNMtwCLcBGAsYHQ/s700/AV7704-5_1.png)
 
 An interesting observation is that the center channel is rendered using an
 identity transfer function, although normally a frontal sound source will be
@@ -175,11 +179,11 @@ played simultaneously into the front left and front right channels. In the time
 domain we see a delayed signal from the counter channel (ETC is shown for
 clarity):
 
-[[AV7704-left_and_right_ir.png]]
+[![](https://1.bp.blogspot.com/-O2rDyYpKOWM/YF9jvUPa0xI/AAAAAAAAS5s/Y5miCh0NYUUNZJEg__q3tB1TywHEi12FACLcBGAsYHQ/s16000/AV7704-left_and_right_ir.png)](https://1.bp.blogspot.com/-O2rDyYpKOWM/YF9jvUPa0xI/AAAAAAAAS5s/Y5miCh0NYUUNZJEg__q3tB1TywHEi12FACLcBGAsYHQ/s700/AV7704-left_and_right_ir.png)
 
 And in the frequency domain this unsurprisingly causes ripples to appear:
 
-[[AV7704-left_and_right_fr.png]]
+[![](https://1.bp.blogspot.com/-LwMIu1prv-8/YF9j5bfSXnI/AAAAAAAAS50/csAQlIRwy7wVu8mK47SCzh7O8wo7MHXDwCLcBGAsYHQ/s16000/AV7704-left_and_right_fr.png)](https://1.bp.blogspot.com/-LwMIu1prv-8/YF9j5bfSXnI/AAAAAAAAS50/csAQlIRwy7wVu8mK47SCzh7O8wo7MHXDwCLcBGAsYHQ/s700/AV7704-left_and_right_fr.png)
 
 The headphone virtualizer in AV7704 doesn't go beyond simulating acoustic
 leakage and directional filtering. However, there is yet another big thing
@@ -197,9 +201,9 @@ missing when playing over headphones. A slight amount of artificial reverb with
 controlled delay time and level helps to "live up" headphone playback and add
 more "envelopment" even for a stereo recording.
 
-The old-fashioned LEDE design of audio studios also allowed for some diffused
-sound coming from the back of the listener. This sound, which is decorrellated
-with the direct sound from the speaker helps to enhance the clarity of the
+The standard LEDE design of audio studios also allowed for some diffused sound
+coming from the back of the listener. This sound, which is decorrellated with
+the direct sound from the speaker helps to enhance the clarity of the
 reproduction. In fact, the more it is decorrelated, the better, since that
 minimizes comb filtering.
 
@@ -232,10 +236,10 @@ resulting tuning is not flat. It's not even balanced correctly since my ears are
 not symmetric. It's very easy to demonstrate this by playing over headphones
 mono signal of banded tone bursts of chirps over the audible range—they move
 arbitrarily from left to right.  This almost doesn't occur when playing the same
-signals over a tuned pair of stereo speakers because their sound passes both
-through the "outer" HRTF filter—the body, and the "inner" part of the HRTF
-filter in the auditory system, whereas on headphones only the second filter is
-applied.
+signals over a tuned pair of stereo speakers because their sound passes through
+the "outer" HRTF filter—the body, and the audiory system can find a matching
+pair of HRTFs for compensation.  When using headphones the matching pair of
+HRTFs can not be found, thus no compensation occurs.
 
 This is actually a serious problem, and a lot of research related to HRTFs is
 devoted to finding ways of figuring out a personalized HRTF without physically
@@ -257,5 +261,14 @@ the changes that they produce. Obviously, using person's own HRTF would be
 ideal, however providing auditory feedback for head movements relies on
 the ability of our brain to learn new things that are useful for survival.
 
-## Binaural Virtualization with Waves Nx
+Gaming-oriented headsets with head tracking, e.g. [Audeze
+Mobius](https://www.audeze.com/products/mobius) were available for a long time
+already. And lately, mass consumer-oriented companies like Apple have also
+adopted the head tracking technology for more realistic multi-channel audio
+reproduction over headphones, and a lot of other companies will undoubtely
+follow the suit.
 
+## What's Next?
+
+I'm going to discuss how headphone virtualization is implemented in Waves Nx,
+and also my DIY approach based on D. Griesinger's ideas.
