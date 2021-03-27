@@ -23,7 +23,7 @@ physical source formed in our mind. We also see the speaker, and the perceived
 sound source will be in our mind anchored, or *localized* to the visual image of
 the speaker.
 
-[[Picture]]
+[[single-speaker.gif]]
 
 This audio perception has a lot of associated attributes in our mind. Some of
 them originate in the sound that is being reproduced by the speaker, like it's
@@ -43,15 +43,17 @@ Moving to a reproduction using two speakers gives a possibility to provide even
 more cues to the brain and create imaginary sound sources that are positioned
 outside of the actual sound sources—the speakers. However, with two speakers the
 acoustical picture becomes more complicated. Obviously, each ear receives sound
-from both speakers and from wall reflections.
+from both speakers and from wall reflections. With a good stereo setup the
+listener can forget about the existence of the speakers and completely
+disentangle them from the sound they are producing.
 
-[[Picture]]
+[[stereo-speakers.gif]]
 
 Through the long history of the development of stereo recording and playback
 audio engineers learned how to use the stereo speaker arrangement for creating
 phantom sources that are located anywhere in the horizontal plane between the
-speakers and even outside them.  Obviously, most commercially available stereo
-recordings were intended for playback over speakers.
+speakers and even outside them.  As a matter of fact, most commercially
+available stereo recordings were produced for playback over speakers.
 
 Use of multi-channel systems, especially with height channels helps to push
 envelope even further and produce phantom sources anywhere around the listener.
@@ -82,25 +84,25 @@ living with the physical fiter of our body. Its goal is to "undo" the effect of
 the body filter and restore the original timbre of the sound source and use the
 information from the body filter for locating the sound source.
 
-[[Picture]]
-
-A simple an efficient demonstration of this filter at work, as pointed out by
-S. Linkwitz, is turning one's head from side to side while listening to
-music [Link]. Although the sound that reaches one's ear drums changes
-dramatically, the perception of the timbre remains stable and the sound source
-just changes its position in the auditory image. This is remarkable.
+A simple an efficient demonstration of this filter at work, as [pointed out by
+S. Linkwitz](http://www.linkwitzlab.com/TMT-Leipzig'10/TMT-Hearing%20spatial%20detail.pdf),
+is turning one's head from side to side while listening to music.  Although the
+sound that reaches one's ear drums changes dramatically, the perception of the
+timbre remains stable and the sound source just changes its position in the
+auditory image. This is a very interesting effect.
 
 It is important to note that due to assymetry of human bodies the physical
 filters for the left and right ears are different, and so are the auditory
 system filters that counteract them. This assymetry plays an important role,
 along with ITLD and room reflections, in locating sound sources and placing them
-correctly on the auditory image. As C. Poldy notes [[Link]], *"the interaural
-differences are unique for each individual and could not be a characteristic of
-the sound source."* This allows humans (and other creatures) to perceive
-the direction of the sound without rotating their heads.
+correctly on the auditory image. As C. Poldy notes [in his tutorial on
+headphones](https://www.aes.org/tutorials/download/file.cfm?ID=48), *"the
+interaural differences are unique for each individual and could not be a
+characteristic of the sound source."* This allows humans (and other creatures)
+to derive the direction of the sound without rotating their heads.
 
-Very simplified model of HRTF filters at work (after D. Griesinger) is as
-follows:
+Very simplified model of HRTF filters at work ([after
+D. Griesinger](http://www.aes.org/e-lib/browse.cfm?elib=14964)) is as follows:
 
 [[Picture]]
 
@@ -118,8 +120,10 @@ physics, for example, due to blocked ear canal, or new resonances added due to
 presence of ear cups around the ear. Left and right headphone speakers are
 usually tuned to be symmetric. The combination of these factors brings in
 misleading cues to the auditory system and it can't anymore use the localization
-mechanisms beyond those relying on simple inter-level difference. As a result,
-the auditory image "resets" to "inside the head" sensation.
+mechanisms beyond those relying on simple interaural level difference. As a
+result, the auditory image "resets" to "inside the head" sensation.
+
+[[headphones.gif]]
 
 Another difference from stereo speaker playback is that in headphones left and
 right channels of the recording do not "leak" to contra-lateral ears. This is a
@@ -137,38 +141,121 @@ renderings of multi-channel and object-based audio programs.
 ### Crossfeed
 
 This is the technique that I was exploring a lot in the past, see my old posts
-on [...]. Crossfeed is based on adding of slightly delayed copies of sound from
-the counter channel to the direct channel. Inevitably, this leads to comb
-filtering—it also occurs natually in speaker playback and is likely taken into
-account by the brain for approximating distances between audio sources.
-My opinion is that comb filtering should be kept to minimum to avoid altering
-the timbre of the sound. For music playback I would prefer the least amount
-of comb filtering, even if it results in less externalization over headphones.
+about [Redline Monitor Plugin](/2018/02/112db-redline-monitor-plugin.md) and on
+[Phonitor Mini](/2017/10/re-creating-phonitor-mini-with-software.md). Crossfeed
+is based on adding of slightly delayed copies of sound from the counter channel
+to the direct channel. It is based on a simple spherical head model.
+
+Adding a delayed copy of the signal to itself leads to comb filtering—it also
+occurs natually in speaker playback and is likely taken into account by the
+brain for approximating distances between audio sources.  My opinion is that
+comb filtering should be kept to minimum to avoid altering the timbre of the
+sound. For music playback I would prefer the least amount of comb filtering,
+even if it results in less externalization over headphones.
+
+### Multi-channel Rendering
+
+Rendering of multi-channel audio over headphones can be based on the same
+principle as crossfeed but with a more realistic head model, as it also needs to
+take into account natural suppression of high frequencies caused by pinnaes of
+the ears. It is likely that a binaural renderer for multi-channel audio relies
+on more realistic HRTFs. For example, below are HRTF filters used by my [Marantz
+AV7704](/2020/06/marantz-av7704-as-audio-hub.md) when playing a 5.1 multi-channel
+program into the headphone output in "Virtual" mode:
+
+[[AV7704-5_1.png]]
+
+An interesting observation is that the center channel is rendered using an
+identity transfer function, although normally a frontal sound source will be
+affected by HRTF, too.
+
+The graphs above do not reveal how the simulation of acoustic leakage between
+speakers affects the output signal. On the graphs below the test signal is
+played simultaneously into the front left and front right channels. In the time
+domain we see a delayed signal from the counter channel (ETC is shown for
+clarity):
+
+[[AV7704-left_and_right_ir.png]]
+
+And in the frequency domain this unsurprisingly causes ripples to appear:
+
+[[AV7704-left_and_right_fr.png]]
+
+The headphone virtualizer in AV7704 doesn't go beyond simulating acoustic
+leakage and directional filtering. However, there is yet another big thing
+that could be added.
 
 ### Reverberation
 
-The rooms that we have at home rarely have extensive acoustic treatment
-similar to studios. Certainly, when setting up and tuning a speaker system
-in a room I try to minimize the impact of reflections during the first
-**20 ms** or so, see my [post about setting up LXmini in a room]. However,
-this setup is still "live" and has a long reverberation tail. It is obviously
-missing when playing over headphones. A slight amount of artificial reverb
-with controlled delay time and level helps to "live up" headphone playback
-and add more "envelopment" even for a stereo recording.
+The rooms that we have at home rarely have extensive acoustic treatment similar
+to studios. Certainly, when setting up and tuning a speaker system in a room I
+try to minimize the impact of reflections during the first **25 ms** or so, see
+my [post about setting up LXmini in a living
+room](/2019/10/case-study-of-lxmini-in-our-new-living.md). However, this setup
+is still "live" and has a long reverberation tail. The latter is obviously
+missing when playing over headphones. A slight amount of artificial reverb with
+controlled delay time and level helps to "live up" headphone playback and add
+more "envelopment" even for a stereo recording.
 
 The old-fashioned LEDE design of audio studios also allowed for some diffused
 sound coming from the back of the listener. This sound, which is decorrellated
 with the direct sound from the speaker helps to enhance the clarity of the
-reproduction.
+reproduction. In fact, the more it is decorrelated, the better, since that
+minimizes comb filtering.
 
-### Multi-channel Rendering
+### Headphones Equalization
 
-If the source audio is multi-channel, it is possible to create a somewhat
-more immersive rendering on headphones by employing HRTFs. Even generic,
-non-individualized HRTFs can create an impression of sounds coming from
-behind and from above. For example, below are HRTF filters used by
-my [[Marantz AV7704]] when playing a 5.1 multi-channel program into
-the headphone output in "Virtual" mode:
+These days measuring headphones is a popular hobby among tech-savvy audiophiles.
+What these measurements show is that no two models of headphones are tuned the
+same way. Although there are well known "recommended" target curves like Harman
+Target Curve, or diffuse field target curve, which strives to make the sound
+pressure delivered to the microphones of a head and torso simulator to resemble
+the sound pressure they receive in a room with a lot of random
+reflections. However, each designer tends to bring in some "voicing" to stand
+off the crowd, and as a result, one might need to go a long way finding
+headphones that satisfy their musical taste. I guess, if the customers ears and
+body have similar dimensions as of some good headphone designer, the customer
+could be quite happy with the tuning.
 
-[[Images]]
+I had some fun trying [audio plugins](/2017/12/on-headphone-normalization.md) for
+cross-tuning headphones to make them sound similar to other models, however the
+outcome of these experiments was still somewhat unsatisfying. The only
+equalization which seems to be useful is the one which ensures that the
+headphones deliver a flat frequency response to the eardrums. This is a "ground
+zero" equalization on top of which one can start putting on HRTFs and preference
+tuning curves.
+
+One problem when trying to achieve the flat equalization by means of plugins is
+that the measurements that they use were taken on a head and torso simulator and
+don't take into account how the headphones interact with **my** ears, thus the
+resulting tuning is not flat. It's not even balanced correctly since my ears are
+not symmetric. It's very easy to demonstrate this by playing over headphones
+mono signal of banded tone bursts of chirps over the audible range—they move
+arbitrarily from left to right.  This almost doesn't occur when playing the same
+signals over a tuned pair of stereo speakers because their sound passes both
+through the "outer" HRTF filter—the body, and the "inner" part of the HRTF
+filter in the auditory system, whereas on headphones only the second filter is
+applied.
+
+This is actually a serious problem, and a lot of research related to HRTFs is
+devoted to finding ways of figuring out a personalized HRTF without physically
+taking the subject into an anechoic chamber to measure HRTFs directly. However,
+for simulating stereo speakers knowing full HRTFs (for sources in any direction)
+are not required. Still, some degree of **personal** headphone equalization is
+needed to achieve proper centering of mono images and placing the virtual
+speakers in front of the listener in horizontal plane.
+
+### Head Tracking
+
+There is another way for dealing with the lack of a personal headphone
+equalization.  Our hearing system takes a lot of cues from other sensory
+systems: visual, motion, sense of vibrations, and from higher levels of
+brain—all that to compensate for lacking and contradictory cues that our ears
+receive. By changing sound according to head movements, e.g. with use of some
+generic HRTFs, we can engage our adaptation mechanism to start making sense of
+the changes that they produce. Obviously, using person's own HRTF would be
+ideal, however providing auditory feedback for head movements relies on
+the ability of our brain to learn new things that are useful for survival.
+
+## Binaural Virtualization with Waves Nx
 
