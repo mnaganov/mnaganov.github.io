@@ -85,7 +85,7 @@ to perform the derivation of the delay in a single step for all
 frequencies, as J. Clarke's paper illustrates.
 
 However, as we have seen in [my previous
-post](/2018/12/automatic-estimation-of-signal-round_30.md),
+post](/2018/12/automatic-estimation-of-signal-round_30.html),
 jack\_delay uses a loop where it considers the phase of each minor sine
 wave separately against previously calculated yet still incomplete delay
 value. The algorithm uses real (floating point) numbers for representing

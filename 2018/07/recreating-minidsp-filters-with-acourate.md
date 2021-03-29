@@ -1,7 +1,7 @@
 # Recreating miniDSP filters with Acourate
 
 I'm getting ready to build a second pair of [Linkwitz
-LXmini](/2018/06/linkwitz-lxminifirst-impressions.md)—this
+LXmini](/2018/06/linkwitz-lxminifirst-impressions.html)—this
 time for rear channels. The original design of LXminis uses [miniDSP
 processors](https://www.minidsp.com/) for implementing the crossover and
 speaker linearization. I use a [miniDSP 2x4

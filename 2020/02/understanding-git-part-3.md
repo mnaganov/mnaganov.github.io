@@ -1,7 +1,7 @@
 # Understanding Git, Part 3
 
-The final part of my talk about Git. Here are [Part 1](/2020/02/understanding-git-part-1.md)
-and [Part 2](/2020/02/understanding-git-part-2.md).
+The final part of my talk about Git. Here are [Part 1](/2020/02/understanding-git-part-1.html)
+and [Part 2](/2020/02/understanding-git-part-2.html).
 
 [![](https://1.bp.blogspot.com/-RStoomyevFY/Xlnp6FOSt9I/AAAAAAAAQSc/XHf-9QdSSEcXhoXUW46U0hDh7VdewPiFACLcBGAsYHQ/s1600/git-43.png)](https://1.bp.blogspot.com/-RStoomyevFY/Xlnp6FOSt9I/AAAAAAAAQSc/XHf-9QdSSEcXhoXUW46U0hDh7VdewPiFACLcBGAsYHQ/s1600/git-43.png)
 

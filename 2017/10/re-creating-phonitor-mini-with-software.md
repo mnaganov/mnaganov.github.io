@@ -42,7 +42,7 @@ There had been some work already done by myself for generating IIR
 filter coefficients to fit a given frequency response using cepstral
 method (based on [this post](https://www.dsprelated.com/showcode/20.php)
 by R. G. Lyons). So I have dusted off [my Matlab / Octave
-code](/2017/06/little-toolbox-for-stereo-filters.md),
+code](/2017/06/little-toolbox-for-stereo-filters.html),
 and prepared it for action.
 
 However, one important thing had to be done to the analog filter

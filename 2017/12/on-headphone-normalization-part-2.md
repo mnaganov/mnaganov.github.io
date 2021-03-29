@@ -1,6 +1,6 @@
 # On Headphone Normalization Part 2
 
-In [Part 1](/2017/12/on-headphone-normalization.md)
+In [Part 1](/2017/12/on-headphone-normalization.html)
 we have considered the need for headphone normalization and its
 implementation in [Morphit plugin by
 Toneboosters](https://www.toneboosters.com/tb_morphit_v1.html). In this

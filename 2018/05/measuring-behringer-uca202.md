@@ -68,7 +68,7 @@ before.
 
 This is how distortion figures compare with [my previous measurements
 connecting SCI to MOTU's line
-input](/2018/05/more-measurements-of-motu-microbook-and.md):
+input](/2018/05/more-measurements-of-motu-microbook-and.html):
 
 |                               | **Line** | **Mic**  |
 |------------------------------:|:---------|:---------|

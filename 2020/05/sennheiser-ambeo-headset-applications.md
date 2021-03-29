@@ -2,7 +2,7 @@
 
 As I have mentioned in the previous posts about [optimizing audio in our
 Mercedes
-GLK](/2020/04/improving-audio-in-mercedes-glk350-x204.md),
+GLK](/2020/04/improving-audio-in-mercedes-glk350-x204.html),
 I used [Sennheiser Ambeo
 Headset](https://en-us.sennheiser.com/in-ear-headphones-3d-audio-ambeo-smart-headset)
 as a measurement device in the car. In this challenging acoustical
@@ -14,7 +14,7 @@ it.
 ## Overview
 
 I discovered this headset at the [AES Headphones
-conference](/2019/09/aes-conference-on-headphones-part.md) where
+conference](/2019/09/aes-conference-on-headphones-part.html) where
 it was used in conjunction with Magic Leap's One AR glasses. By the time
 when I decided to buy it for my experiments, Sennheiser had already
 abandoned its production. Nevertheless, it's still possible to buy
@@ -383,7 +383,7 @@ was able to measure this using the technique described above:
 
 For the analog cable measurements I used SPL Phonitor Mini, which has
 [very low output
-impedance](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.md) and
+impedance](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.html) and
 thus provides adequate bass output. The section of the graph below
 **1 kHz** was obtained from comparing measurements done by the Ambeo headset
 on my head. There is noise because I turned off FTW gating in SMAART to
@@ -401,4 +401,4 @@ Although KaiSc also mentions compression effects from the Cipher DSP at
 high volume. Since I was testing EL-8 at high volume to obtain adequate
 free-field output, it's possible that the DSP has thrown in some
 compression at this point. **UPDATE:** the "scoop" is a measurement error,
-see [my post](/2020/07/diy-headphone-equalization.md).
+see [my post](/2020/07/diy-headphone-equalization.html).

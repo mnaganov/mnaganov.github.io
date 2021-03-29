@@ -78,7 +78,7 @@ any issues.
 However, if "balanced" headphone output means "doubled circuitry"
 (essentially, this is the same as "bridging" for a power amplifier), or
 if the ground channel has a dedicated amplifier path, as in the [AMB M3
-amplifier](/2017/03/amb-m3-headphone-amplifier.md) (this is called ["active
+amplifier](/2017/03/amb-m3-headphone-amplifier.html) (this is called ["active
 ground"](http://nwavguy.blogspot.com/2011/05/virtual-grounds-3-channel-amps.html)),
 then we must avoid connecting the ground of the output to the ground of
 the analyzer input.

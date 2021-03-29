@@ -2,7 +2,7 @@
 
 Continuing the topic of my desktop setup for headphone listening, let's
 recap what we had covered in [Part
-1](/2018/06/my-setup-for-headphone-listening-part-1.md).
+1](/2018/06/my-setup-for-headphone-listening-part-1.html).
 We have set up a transparent hardware chain at moderate cost, and
 decided to make all the necessary adjustments on the software side using
 DSP plugins. In order to route audio from any player program via the DSP
@@ -29,12 +29,12 @@ processing intended for speakers.
 
 So our goals are pretty clear: being able to easily adjust levels of
 high and low frequencies, and have
-a [crossfeed](/2017/10/re-creating-phonitor-mini-with-software.md).
+a [crossfeed](/2017/10/re-creating-phonitor-mini-with-software.html).
 In addition, we can try adding some psycho-acoustic enhancement by
 injecting 2nd or 3rd order harmonics (this is roughly equivalent to
 using a tube amplifier). Previously, I was also enthusiastic about the
 idea of [headphone frequency response
-normalization](/2017/12/on-headphone-normalization.md).
+normalization](/2017/12/on-headphone-normalization.html).
 Now I'm less excited, and I will explain why later. But if headphones
 used are known to have some particular tonal issue, like the **6 kHz**
 bump of [Sennheiser
@@ -88,7 +88,7 @@ Thus, there is no reason to worry about going from **44.1 kHz** to
 should be transparent. This is assuming that the input signal doesn't
 have intersample peaks. And we took care of this by lowering the digital
 volume of the player (see
-[Part 1](/2018/06/my-setup-for-headphone-listening-part-1.md)),
+[Part 1](/2018/06/my-setup-for-headphone-listening-part-1.html)),
 giving some headroom to the audio signal before it gets upsampled.
 
 ## Measurements
@@ -129,7 +129,7 @@ is not clipping:
 
 Having that a lot of modern recordings have peaks normalized to
 **0 dBFS** the advice I gave in
-[Part 1](/2018/06/my-setup-for-headphone-listening-part-1.md) about
+[Part 1](/2018/06/my-setup-for-headphone-listening-part-1.html) about
 lowering the digital volume on the player by at least **3.5 dBFS** seems
 especially useful in this case.
 
@@ -257,10 +257,10 @@ noticeably "fuzzier":
 ### Crossfeed and Headphone Normalization
 
 I covered both [Redline
-Monitor](/2018/02/112db-redline-monitor-plugin.md)
+Monitor](/2018/02/112db-redline-monitor-plugin.html)
 and a couple of [headphone normalization
-plugins](/2017/12/on-headphone-normalization.md)
-in my [earlier posts](/2017/12/on-headphone-normalization-part-2.md).
+plugins](/2017/12/on-headphone-normalization.html)
+in my [earlier posts](/2017/12/on-headphone-normalization-part-2.html).
 For headphone normalization I would also prefer a plugin that has
 "linear phase" mode.
 

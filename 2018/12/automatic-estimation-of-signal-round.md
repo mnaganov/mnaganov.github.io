@@ -18,7 +18,7 @@ other audiovisual streams. Examples from my everyday applications are:
 -   speaker synchronization in a multi-channel setup. In the simplest
     case, it's possible just to measure the distance from each speaker
     to the listening position, but if speakers use DSP (like
-    [LXmini](/2018/06/linkwitz-lxminifirst-impressions.md)),
+    [LXmini](/2018/06/linkwitz-lxminifirst-impressions.html)),
     the processing delay must be taken into account, too.
 -   mobile devices and computers when used as real-time effect boxes for
     live instruments. In this case, the latency has to be quite low,

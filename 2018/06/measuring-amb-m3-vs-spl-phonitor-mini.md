@@ -1,7 +1,7 @@
 # Measuring AMB M3 vs. SPL Phonitor Mini
 
 I've [built AMB's M3 headphone
-amplifier](/2017/03/amb-m3-headphone-amplifier.md)
+amplifier](/2017/03/amb-m3-headphone-amplifier.html)
 more than a year ago and I enjoyed it all this time. Judging purely from
 listening experience, I was quite sure that my build doesn't have any
 major flaws. Also, I was confident in the M3 measurements that
@@ -28,7 +28,7 @@ choice actually has.
 SPL Phonitor Mini is one of my favorite headphone amplifiers for a long
 time. Initially this was due to its awesome crossfeed implementation.
 Now that I've found some [comparable DSP
-implementations](/2018/02/112db-redline-monitor-plugin.md),
+implementations](/2018/02/112db-redline-monitor-plugin.html),
 this is of a less importance. But I still enjoy Phonitor for its power,
 reliability, and the fact that it has both unbalanced and balanced
 inputs. Besides crossfeed, Phonitor has another feature—high-voltage
@@ -37,7 +37,7 @@ rail (**120 VDC**), which helps to achieve low noise floor.
 ## Notes on Measurements
 
 In [my previous
-experiments](/2018/05/measuring-behringer-uca202.md)
+experiments](/2018/05/measuring-behringer-uca202.html)
 I found that I can trust my measurements of frequency response, THD,
 channel balance, and output impedance. I put less faith into my IMD
 measurements, but for comparison between two amplifiers this should be
@@ -147,7 +147,7 @@ Phonitor. Here is Phonitor:
 
 The crosstalk level stays at **-74 dBFS** until **1 kHz**, and then
 climbs up to **-64 dBFS**. It's definitely better than [Behringer UCA202
-was showing](/2018/05/measuring-behringer-uca202.md).
+was showing](/2018/05/measuring-behringer-uca202.html).
 Now let's look at M3:
 
 [<img src="https://3.bp.blogspot.com/-5ciP7t6OfRw/WyMsnDVOXbI/AAAAAAAAMqw/VEtttxQCxiI5wJKzJoSBIS4m07PlJ2BRQCLcBGAs/s640/M3%2BCrosstalk.png" width="640" height="440" />](https://3.bp.blogspot.com/-5ciP7t6OfRw/WyMsnDVOXbI/AAAAAAAAMqw/VEtttxQCxiI5wJKzJoSBIS4m07PlJ2BRQCLcBGAs/s1600/M3%2BCrosstalk.png)
@@ -174,6 +174,6 @@ M3 is a transparent amplifier. The absence of distortions is due to its
 enormous power capacity. I actually doubt that the driven ground has
 much influence on its performance. It would be interesting to build a
 version of M3 with classical passive ground channel. Like [LXmini
-speakers](/2018/06/linkwitz-lxminifirst-impressions.md),
+speakers](/2018/06/linkwitz-lxminifirst-impressions.html),
 it's a great design that can be reliably built and provide consistence
 level of performance.

@@ -1,9 +1,9 @@
 # Measuring QSC SPA4-100 Amplifier and Understanding Driving Modes of Speakers
 
 As I had mentioned a couple of times (see
-[this](/2019/03/amp-dac-box-for-lxmini-minibox.md)
+[this](/2019/03/amp-dac-box-for-lxmini-minibox.html)
 and
-[this](/2018/06/linkwitz-lxminifirst-impressions.md)
+[this](/2018/06/linkwitz-lxminifirst-impressions.html)
 posts), I drive my DIY LXmini speakers from [QSC
 SPA4-100](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa4-100/)
 power amplifier. I had chosen it because of its compact form-factor (1U
@@ -18,7 +18,7 @@ to get an answer for:
 2.  Does the bridged output mode of the amp provide any improvements in
     THD compared to single ended mode (the effect that [I've seen with
     Monoprice Unity
-    amplifier](/2019/05/measuring-bridged-and-balanced.md)).
+    amplifier](/2019/05/measuring-bridged-and-balanced.html)).
 3.  How a more expensive Class D amplifier (QSC) stands in measurements
     against a less expensive one (Monoprice).
 
@@ -211,7 +211,7 @@ Answering the questions I've stated in the beginning of this post. We
 can see that this QSC amplifier is way more linear in its best operating
 mode (single ended) than cheaper Monoprice in its best mode
 (bridged)—just take another look at the graphs in [the post about
-Monoprice](/2019/05/measuring-bridged-and-balanced.md).
+Monoprice](/2019/05/measuring-bridged-and-balanced.html).
 
 Also, QSC's capabilities are specified much closer to real measurements
 than what Monoprice had specified. And clearly, higher price point of

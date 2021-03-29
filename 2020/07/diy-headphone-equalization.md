@@ -4,8 +4,8 @@
 
 Back in time I already experimented with commercial packages for
 headphone equalization: [Morphit by
-Toneboosters](/2017/12/on-headphone-normalization.md) and [Reference
-by Sonarworks](/2017/12/on-headphone-normalization-part-2.md).  They
+Toneboosters](/2017/12/on-headphone-normalization.html) and [Reference
+by Sonarworks](/2017/12/on-headphone-normalization-part-2.html).  They
 offer means for correcting the frequency response of selected models
 of headphones in order to bring the sound closer to either a
 "reference" target curve or to the sound of some other model of
@@ -59,7 +59,7 @@ V-shaped tuning which I wanted to "flatten".
 ## Measurement Methods
 
 I used two methods I had previously mentioned in [this
-post](/2020/05/sennheiser-ambeo-headset-applications.md): moving
+post](/2020/05/sennheiser-ambeo-headset-applications.html): moving
 microphone averaging (MMA) and on-head measurement using Sennheiser
 Ambeo Headset. Since the time I've made that post I've got a couple of
 updates on them.

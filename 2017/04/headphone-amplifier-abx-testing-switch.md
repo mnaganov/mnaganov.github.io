@@ -62,7 +62,7 @@ loudness, and a louder sound is always perceived as a "better sounding"
 one.
 
 In order to align the volume levels, I use the
-[T-Cable](/2017/04/t-cable-for-output-level-measurements.md)
+[T-Cable](/2017/04/t-cable-for-output-level-measurements.html)
 I crafted previously and a reasonably precise Agilent U1252B multimeter.
 Be sure to measure the voltage on both left and right channels. Not
 every single headphone amplifier I've tested featured precise match of

@@ -121,7 +121,7 @@ compared to MOTU loopback.
 From these measurements I can conclude that Mr. Millet has created a
 highly transparent device. Hopefully, [my extensive efforts on making a
 properly shielded and grounded
-case](/2018/04/peter-millets-soundcard-interface-part-2.md)
+case](/2018/04/peter-millets-soundcard-interface-part-2.html)
 also have helped.
 
 The next thing I have tried was using different power sources for the
@@ -140,9 +140,9 @@ worst.
 Next step—try SPL Phonitor Mini. I have connected MOTU's unbalanced
 **Line Out** to Phonitor's unbalanced inputs, then connected [the dummy
 headphone
-load](/2016/11/my-take-on-headphone-dummy-load.md)
+load](/2016/11/my-take-on-headphone-dummy-load.html)
 I've made a long time ago to Phonitor's output via my
-[T-Cable](/2017/04/t-cable-for-output-level-measurements.md).
+[T-Cable](/2017/04/t-cable-for-output-level-measurements.html).
 Then using a BNC to banana males I have connected needle multimeter
 probes to the T-Cable's outlet. This way I have created a parallel
 connection for the Soundcard Interface to the dummy load.

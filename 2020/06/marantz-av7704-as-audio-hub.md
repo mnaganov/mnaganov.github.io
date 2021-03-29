@@ -76,10 +76,10 @@ requires using a computer or an iOS device—not my option.
 
 Here I've got somewhat atypical demands. I need optical output
 to feed the
-[miniBox](/2019/03/amp-dac-box-for-lxmini-minibox.md) for
+[miniBox](/2019/03/amp-dac-box-for-lxmini-minibox.html) for
 LXminis and the subwoofer, with volume control! I need
 parametric equalizers for interfacing [SPL Phonitor
-mini](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.md)
+mini](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.html)
 headphone amplifiers.
 
 This is where AV7704 falls short for me—it only offers HDMI outputs
@@ -97,7 +97,7 @@ analog outputs—not when sending audio via HDMI.
 
 Failure? Not really—I have a trump in my sleeve—MOTU Ultra Lite
 AVB card which I was previously using for [my surround
-setup](/2017/04/motu-ultralite-avb-hybrid-stereo-51.md). This
+setup](/2017/04/motu-ultralite-avb-hybrid-stereo-51.html). This
 card has **6** high quality line inputs, DSP, and both analog
 and digital outputs. So I can use to complete the HDMI receiver
 and Dolby / DTS processing functions of AV7704, great! And MOTU AVB
@@ -155,7 +155,7 @@ to validate these claims.
 
 Need to recall two issues that can happen with digital recordings
 that do not leave enough headroom due to aggressive mastering.
-The first is [clipping of intersample peaks during resampling](/2017/05/clipping-in-sampling-rate-converters.md). The problem illustrated below:
+The first is [clipping of intersample peaks during resampling](/2017/05/clipping-in-sampling-rate-converters.html). The problem illustrated below:
 
 [![](https://1.bp.blogspot.com/-CRAVsmLQgm8/Xu7ikcVwNBI/AAAAAAAARGA/a-IMBd855MsJ9V_r6t8HzU4nGgwjszbSQCK4BGAsYHg/d/intersample-peaks-resampling.png)](https://1.bp.blogspot.com/-CRAVsmLQgm8/Xu7ikcVwNBI/AAAAAAAARGA/a-IMBd855MsJ9V_r6t8HzU4nGgwjszbSQCK4BGAsYHg/s573/intersample-peaks-resampling.png)
 
@@ -333,7 +333,7 @@ nature of the phase changes the resulting group delay is zero.
 
 I'm pretty sure the tone controls are implemented in a DSP as
 they are very precise (unlike
-[JDS Labs Subjective 3](/2018/02/jds-labs-subjective3-tone-control.md)),
+[JDS Labs Subjective 3](/2018/02/jds-labs-subjective3-tone-control.html)),
 and it seems strange to me that the control steps are **1 dB**.
 I would like to have a better precision, at least by half of a dB.
 

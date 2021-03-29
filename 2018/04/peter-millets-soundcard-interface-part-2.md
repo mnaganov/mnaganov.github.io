@@ -1,7 +1,7 @@
 # Peter Millet's Soundcard Interface, Part 2
 
 Lots of things happened while assembling my [Millet's Soundcard
-Interface](/2018/03/peter-millets-soundcard-interface.md).
+Interface](/2018/03/peter-millets-soundcard-interface.html).
 First, I discovered that the voltage mode switch can be
 restricted to the required 4 positions by inserting small metal bits
 that came with it into the holes around the shaft. This is where they

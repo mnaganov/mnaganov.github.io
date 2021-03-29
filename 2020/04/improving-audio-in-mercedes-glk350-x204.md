@@ -1,6 +1,6 @@
 # Improving audio in Mercedes GLK350 (X204), Part 2
 
-In [Part 1](/2020/03/improving-audio-in-mercedes-glk350-x204.md)
+In [Part 1](/2020/03/improving-audio-in-mercedes-glk350-x204.html)
 of this post I explained how I replaced the "basic" speakers with the
 ones from Harman-Kardon Logic 7 configuration and studied their behavior
 with AudioFrog GSC610C passive crossover. Now it's time to install the
@@ -85,7 +85,7 @@ inverted, and I just restored it back.
 
 ## Taming the Rear Door Speakers
 
-As I mentioned in [Part 1](/2020/03/improving-audio-in-mercedes-glk350-x204.md)
+As I mentioned in [Part 1](/2020/03/improving-audio-in-mercedes-glk350-x204.html)
 of this post, I didn't replace the rear door speakers due to their
 peculiar mounting. However, I wanted to find a way to minimize their
 negative influence on the sound of the front speakers.
@@ -121,7 +121,7 @@ also perform exact measurement of the actual acoustic crossover formed
 by non-coincident door speaker drivers and the driver's body.
 
 Recalling my visit to the [AES Conference on
-Headphones](/2019/09/aes-conference-on-headphones-part.md) I
+Headphones](/2019/09/aes-conference-on-headphones-part.html) I
 decided to buy [Sennheiser Ambeo
 headset](https://en-us.sennheiser.com/in-ear-headphones-3d-audio-ambeo-smart-headset).
 I learned that Sennheiser has sunset this product, but I've managed to

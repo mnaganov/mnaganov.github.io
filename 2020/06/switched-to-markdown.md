@@ -104,6 +104,18 @@ This way, a link to a previous post in Markdown looks like this:
 
 and when "distilling" Markdown source to HTML I replace `md` with `html`.
 
+**Update Mar 28, 2021** I've noticed that Github now only replaces
+`.md` to `.html` extension in the links of the top-level `README.md`.
+So I have changed all other cross-references in posts to use
+`.html`:
+
+```
+[as recently shown in the previous post](/2019/06/previous-post.html)
+```
+
+This is even better as now there is no need to do the aforementioned
+replacement.
+
 ### Pictures
 
 There are a lot of pictures in this blog, I decided to leave

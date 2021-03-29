@@ -45,7 +45,7 @@ per channel.)
 ## Measurements
 
 I'm presenting the measurements in the same order as for 282i
-[here](/2018/01/bbe-282i-sonic-maximizer-measurements.md).
+[here](/2018/01/bbe-282i-sonic-maximizer-measurements.html).
 
 ### Group Delay
 

@@ -213,7 +213,7 @@ What if we actually took a sound source with a frequency response that
 is flat in anechoic conditions and try measuring it with these
 microphones? I recalled that a couple years ago [I was using NTi Talkbox
 as a reference
-speaker](/2017/02/measurements-jbl-lsr-305-vs-krk-rokit.md)
+speaker](/2017/02/measurements-jbl-lsr-305-vs-krk-rokit.html)
 and actually still have those measurements. At that time I only had
 **Mic 1** (UMIK-1 with miniDSP calibration). However, having the results
 from the previous experiment we can derive transfer functions for

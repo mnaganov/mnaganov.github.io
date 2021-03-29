@@ -92,7 +92,7 @@ frequencies, while Phonitor 2 has **200 μs** ITD.
 In order to perform an ABX test, I've processed several music excerpts
 using Redline Monitor, and also recorded them via Phonitor mini
 crossfeed matrix (after I have discovered that [my Phonitor
-simulation](/2017/10/re-creating-phonitor-mini-with-software.md)
+simulation](/2017/10/re-creating-phonitor-mini-with-software.html)
 lacks group delay, I decided I shouldn't use it for tests). The same
 processing settings were used that are specified in the section above.
 The goal was to check can Redline Monitor and Phonitor mini be

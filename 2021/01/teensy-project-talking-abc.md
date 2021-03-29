@@ -1,7 +1,7 @@
 # Teensy Project: Talking ABC
 
 As I had mentioned in [my previous
-post](/2020/10/audio-output-on-teensy-4x-boards.md), I was intending to build a
+post](/2020/10/audio-output-on-teensy-4x-boards.html), I was intending to build a
 talking Russian ABC for my daughter. It took me a lot of time to complete this
 project, and finally it's done:
 
@@ -176,7 +176,7 @@ acoustic measurements, thus an external audio card is required.
 The external audio card needs a way to synchronize its clock with Teensy.
 Otherwise, as I've mentioned, there is a high chance of getting a skewed measurement.
 One approach to syncing two USB audio devices is to use the feature of macOS,
-as I've [done previously for Ambeo headset](/2020/07/diy-headphone-equalization.md).
+as I've [done previously for Ambeo headset](/2020/07/diy-headphone-equalization.html).
 However, a better way is to utilize the built-in SPDIF output on Teensy.
 This is the diagram of the measurement loop I've ended up with:
 

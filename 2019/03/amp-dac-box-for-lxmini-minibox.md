@@ -8,7 +8,7 @@ but since the system is used by my entire family, hearing from them that
 "sound is not working AGAIN" has become somewhat annoying.
 
 My surround system is **4.1** configuration. As I've explained in my
-[post about LXmini](/2018/06/linkwitz-lxminifirst-impressions.md),
+[post about LXmini](/2018/06/linkwitz-lxminifirst-impressions.html),
 their super-stable and super-focused phantom center eliminates the need
 for the central speaker in the surround configuration. I use LXmini both
 for the front pair and for the surround pair. The surround pair is about

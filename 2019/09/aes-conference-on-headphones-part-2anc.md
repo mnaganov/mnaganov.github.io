@@ -58,7 +58,7 @@ cancelling headphones. This is achieved by playing the sound captured by
 the outer microphone into the corresponding ear (basically, performing a
 real-time "dummy head" sound field capture which I was describing
 in [the previous
-post](/2019/09/aes-conference-on-headphones-part.md)).
+post](/2019/09/aes-conference-on-headphones-part.html)).
 The Sennheiser AMBEO headset and [AKG N700NC
 headphones](https://www.akg.com/Headphones/Wireless%20Headphones/AKG+N700NC+WIRELESS.html)
 implement "hear through", however not perfectly according to my

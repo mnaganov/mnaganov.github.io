@@ -1,6 +1,6 @@
 # rvalue references and move semantics in C++11, Part 2
 
-Continued from [Part 1](/2019/02/rvalue-references-and-move-semantics-in.md).
+Continued from [Part 1](/2019/02/rvalue-references-and-move-semantics-in.html).
 
 [![](https://2.bp.blogspot.com/-id2FASgtkyQ/XF0I4XwWURI/AAAAAAAANao/EzZ-cv3S1rkz7TSYpU5bjybdqd3Dpk8WwCEwYBhgL/s1600/rvalues-32.png)](https://2.bp.blogspot.com/-id2FASgtkyQ/XF0I4XwWURI/AAAAAAAANao/EzZ-cv3S1rkz7TSYpU5bjybdqd3Dpk8WwCEwYBhgL/s1600/rvalues-32.png)
 

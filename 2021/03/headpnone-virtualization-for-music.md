@@ -145,8 +145,8 @@ renderings of multi-channel and object-based audio programs.
 ### Crossfeed
 
 This is the technique that I was exploring a lot in the past, see my old posts
-about [Redline Monitor Plugin](/2018/02/112db-redline-monitor-plugin.md) and on
-[Phonitor Mini](/2017/10/re-creating-phonitor-mini-with-software.md). Crossfeed
+about [Redline Monitor Plugin](/2018/02/112db-redline-monitor-plugin.html) and on
+[Phonitor Mini](/2017/10/re-creating-phonitor-mini-with-software.html). Crossfeed
 is based on adding of slightly delayed copies of sound from the counter channel
 to the direct channel. It is based on a simple spherical head model.
 
@@ -164,7 +164,7 @@ principle as crossfeed but with a more realistic head model, as it also needs to
 take into account natural suppression of high frequencies caused by pinnaes of
 the ears. It is likely that a binaural renderer for multi-channel audio relies
 on more realistic HRTFs. For example, below are HRTF filters used by my [Marantz
-AV7704](/2020/06/marantz-av7704-as-audio-hub.md) when playing a 5.1 multi-channel
+AV7704](/2020/06/marantz-av7704-as-audio-hub.html) when playing a 5.1 multi-channel
 program into the headphone output in "Virtual" mode:
 
 [![](https://1.bp.blogspot.com/-wd8IaLa0KEA/YF9jpe2ooDI/AAAAAAAAS5k/F2P_U6AAFHMfxr74nfp1ABhZ5_gKjNMtwCLcBGAsYHQ/s16000/AV7704-5_1.png)](https://1.bp.blogspot.com/-wd8IaLa0KEA/YF9jpe2ooDI/AAAAAAAAS5k/F2P_U6AAFHMfxr74nfp1ABhZ5_gKjNMtwCLcBGAsYHQ/s700/AV7704-5_1.png)
@@ -195,7 +195,7 @@ The rooms that we have at home rarely have extensive acoustic treatment similar
 to studios. Certainly, when setting up and tuning a speaker system in a room I
 try to minimize the impact of reflections during the first **25 ms** or so, see
 my [post about setting up LXmini in a living
-room](/2019/10/case-study-of-lxmini-in-our-new-living.md). However, this setup
+room](/2019/10/case-study-of-lxmini-in-our-new-living.html). However, this setup
 is still "live" and has a long reverberation tail. The latter is obviously
 missing when playing over headphones. A slight amount of artificial reverb with
 controlled delay time and level helps to "live up" headphone playback and add
@@ -221,7 +221,7 @@ headphones that satisfy their musical taste. I guess, if the customers ears and
 body have similar dimensions as of some good headphone designer, the customer
 could be quite happy with the tuning.
 
-I had some fun trying [audio plugins](/2017/12/on-headphone-normalization.md) for
+I had some fun trying [audio plugins](/2017/12/on-headphone-normalization.html) for
 cross-tuning headphones to make them sound similar to other models, however the
 outcome of these experiments was still somewhat unsatisfying. The only
 equalization which seems to be useful is the one which ensures that the

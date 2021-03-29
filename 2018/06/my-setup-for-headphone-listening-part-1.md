@@ -74,7 +74,7 @@ the option for selecting the type of the output filter.
 Decent transparent headphone amplifiers are not hard to find either, as
 we can see from my previous post on [measurements of AMB M3 and SPL
 Phonitor
-Mini](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.md).
+Mini](/2018/06/measuring-amb-m3-vs-spl-phonitor-mini.html).
 I also use the desktop version of **Objective2** headphone amplifier.
 
 ### Headphones
@@ -113,7 +113,7 @@ resolution (24/96) files.
 
 The only thing I need to tweak in the player is to set its output level
 so it has [headroom for intersample
-peaks](/2017/05/dac-clipping-on-intersample-peaks.md).
+peaks](/2017/05/dac-clipping-on-intersample-peaks.html).
 As it had been demonstrated in that post, a digital sound file can
 contain encoded sound waves that while being converted into analog would
 exceed the normal level of **0 dBFS**. And thus, having slightly more
@@ -152,7 +152,7 @@ itself as a filter for the selected audio interface. It can host VST
 plugins. However, I've got a couple of issues with it. First, it doesn't
 allow VST plugins to show their meters. Second, it crashed when I was
 attempting to add **Redline Monitor**—[my current favorite crossfeed
-plugin](/2018/02/112db-redline-monitor-plugin.md).
+plugin](/2018/02/112db-redline-monitor-plugin.html).
 Since Equalizer APO is open source it should be possible to fix both of
 these annoyances, but I haven't got to this yet.
 
