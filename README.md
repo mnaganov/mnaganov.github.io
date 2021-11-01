@@ -6,7 +6,7 @@ This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
   - Nov - [Headphone Stereo Setup](2021/11/headphone-stereo-setup.md)
   - Aug - [Automatic Gain Control](2021/08/automatic-gain-control.md)
   - Jul - [Desktop Stereo Setup](2021/07/desktop-stereo-setup.md)
-  - Mar - [Headphone Virtualization for Music Reproduction](2021/03/headpnone-virtualization-for-music.md)
+  - Mar - [Headphone Virtualization for Music Reproduction](2021/03/headphone-virtualization-for-music.md)
   - Jan - [Teensy Project: Talking ABC](2021/01/teensy-project-talking-abc.md)
 * 2020
   - Sep-Oct - [Audio Output on Teensy 4.x Boards](2020/10/audio-output-on-teensy-4x-boards.md)
