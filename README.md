@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2021
+  - Dec - [YouTube Music and Intersample Peaks](2021/12/youtube-music-and-intersample-peaks.md)
   - Nov - [Headphone Stereo Setup](2021/11/headphone-stereo-setup.md)
   - Aug - [Automatic Gain Control](2021/08/automatic-gain-control.md)
   - Jul - [Desktop Stereo Setup](2021/07/desktop-stereo-setup.md)
