@@ -48,7 +48,7 @@ found one based on [Zero Zone
 board](http://www.ebay.com/itm/ZERO-ZONE-15W-HIFI-Linear-Power-supply-kit-inlcude-transformer-/131628523223).
 It can go up to **24 V** at **0.6 A**, which is enough for M3.
 
-<img src="https://lh6.googleusercontent.com/36rVS027dQReiHh5ddNOkgqEsu4Mb-GLDxdhOz5XvgSYnpYnfEuKsTjuYDOqGdV_dIwKg4W81zLL3DN3uzWNS0fi57j_E161FqUQJtN-uMR-vhzEX3ddOe0_lVzHt5h5Fb0ZEHTc" width="287" height="427" />
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8sb-fsD_9LiyEiJPsYNWSXVRSPmVmnrVhl1LZUHWmSIEIKYgAcAFyo1yZH-sckPwAnLkMgKssLaPeSfRNUYdesv4BgwnWIFyFswMARsF2vCkdOlCs626-4X-WJ8ZeeTOyRNfy69AxdaoabnwtWxg-UKLwVayple2KErwdnuiakPKnsEgtxuFjY2k9zA/w269-h400/power-supply.jpg" width="269" height="400" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8sb-fsD_9LiyEiJPsYNWSXVRSPmVmnrVhl1LZUHWmSIEIKYgAcAFyo1yZH-sckPwAnLkMgKssLaPeSfRNUYdesv4BgwnWIFyFswMARsF2vCkdOlCs626-4X-WJ8ZeeTOyRNfy69AxdaoabnwtWxg-UKLwVayple2KErwdnuiakPKnsEgtxuFjY2k9zA/s3516/power-supply.jpg)
 
 It's actually turned out to be a neatly built power supply,
 ground-referenced case, with fuses, and as a bonus—an LCD displaying
@@ -58,14 +58,14 @@ ground), just as M3 design requires.
 ## Case
 
 That has turned out to be the most interesting experience for me.
-Assembled board is quite big (**7" x 5"**) and tall, and a ventilated case
+Assembled board is quite big (**7" x 5"**) and tall, and a ventilated case
 is recommended. I found these requirements to be quite close to those of
 Mini-ITX PC form factor, and started looking for a nice looking computer
 case. I ended up buying [Morex 557 Universal
-Mini-ITX](http://www.mitxpc.com/proddetail.php?prod=557) case. Here is
-where the challenges has started.
+Mini-ITX](http://www.mitxpc.com/proddetail.php?prod=557) case. And this is
+where the challenges have started.
 
-<img src="https://lh6.googleusercontent.com/PR1SSJ6RpQDBA0FDlGgcYV4zBkrsxK4JU72Ij_O9sOs2Fe494YbBbvEB3eXmQ5q2MXeOdDMTINzeUsGc58JRX6ASysD0P-aK5byD2S9PxTjBxA20PtVOXc52YyRlX7yk9jmWxCSW" width="427" height="401" />
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlO8r4CF3DtRlxCvJm2QWsRoT1NFXG-S7BtTMzseLkEXdqEDVHN9UVBP7HOkm87pu4cms-nlMd8sxxgsTyAMvKvjs04raGejM7GzdQdNJietBIxzTEbAgPhWxYHu1e1AZszo5oeYTUiZg7RimPb1WQQuKMUImKFl9mijr_dKGF0TVG1DJN7A-A3KBv3Q/w400-h376/inside-the-case.jpg" width="400" height="376" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlO8r4CF3DtRlxCvJm2QWsRoT1NFXG-S7BtTMzseLkEXdqEDVHN9UVBP7HOkm87pu4cms-nlMd8sxxgsTyAMvKvjs04raGejM7GzdQdNJietBIxzTEbAgPhWxYHu1e1AZszo5oeYTUiZg7RimPb1WQQuKMUImKFl9mijr_dKGF0TVG1DJN7A-A3KBv3Q/s3024/inside-the-case.jpg)
 
 First, the case doesn't have a back panel—it is supposed to come on the
 PC board. Second, ITX motherboard mounting holes obviously didn't match
@@ -84,7 +84,7 @@ grounded, as M3 design recommends) and a little shelf used for latching
 the front plastic panel onto the inner metal panel. This way, I also
 have solved board mounting problem.
 
-<img src="https://lh3.googleusercontent.com/re8m3WDyL5YH6nlzwIxbVTbevzDVylci1IUIbYvqbe2knYO4PIrELEaIYTS6TdkIpfbW5G3RZN7A36LKzPfTlECpm6lEDJsAq6nUAvfe8FYbpNp6NV37E_N5mgAAHHQuhUPTwdgH" width="533" height="440" />
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipH08zbjOZK25W9pnAkjjKiDY96f1HHEYxImYX3GZXzP_tCJN_IBarWaP5Qc-cvmWlUh_O17kqTMVuy6qkdRnIYCboxpO687RxA5DMs9va5OtlRIz5Kt1K-Yct4jiojEq3p4xl96wPqKaMaQEWrkDSAHoshBwg4w36ZbqoQHjvTxmGZA8iOEkUURKmiw/w400-h295/back.jpg" width="400" height="295" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipH08zbjOZK25W9pnAkjjKiDY96f1HHEYxImYX3GZXzP_tCJN_IBarWaP5Qc-cvmWlUh_O17kqTMVuy6qkdRnIYCboxpO687RxA5DMs9va5OtlRIz5Kt1K-Yct4jiojEq3p4xl96wPqKaMaQEWrkDSAHoshBwg4w36ZbqoQHjvTxmGZA8iOEkUURKmiw/s3395/back.jpg)
 
 For the volume pots, a regular **8 mm** drill bit worked fine. The Neutrik
 jack has the same diameter as XLR jacks (that is, enormous), which is
@@ -99,9 +99,9 @@ power jack is isolated from the ground. But this also mean that the RCA
 input jacks are not grounded either. So I soldered a wire to one of IG
 holes on the board, and secured the wire to one of the case's screws.
 
-<img src="https://lh6.googleusercontent.com/fJIzddT_0I4ojquGlQqLPAzKD4EMVTVYc8S6M6802cfjRmjx9uvIFhwDWxrHWSs_tlgc4TcaPZ9GbUVMHsnoVt90xbAzBTL8KMnl7wH-a6OY0h1NH3Sf5ZRmRqH9V1WnR2CNbK7T" width="427" height="313" />
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2IkqU5gq279g6I9Hr9Vc2V3a7JJzymSUB2deiJ6UWrGOCNXkMJ57SOcIux2ATcTzVNu8qdHhnS-gqS3O6pJsl2Eusj3MTIQzw7m5PRABzL0c1TLJwXqyPOBE6fMdKDm_iiCmqufBfXn0CGJmcruEn0p2pOuQSQnKy9zu9XvcWPt8AkdmpcyHDDrHYLg/w400-h331/board-in-case.jpg" width="400" height="331" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2IkqU5gq279g6I9Hr9Vc2V3a7JJzymSUB2deiJ6UWrGOCNXkMJ57SOcIux2ATcTzVNu8qdHhnS-gqS3O6pJsl2Eusj3MTIQzw7m5PRABzL0c1TLJwXqyPOBE6fMdKDm_iiCmqufBfXn0CGJmcruEn0p2pOuQSQnKy9zu9XvcWPt8AkdmpcyHDDrHYLg/s3568/board-in-case.jpg)
 
 The final stroke was to cover the holes for USB ports on the front
 panel. See what I came up with :)
 
-<img src="https://lh6.googleusercontent.com/q8YJXh4txlBiMfZ1sOgdp11EJWsU9piL-p5QjU8vGDre9hOn78oirak8w-67-cpRWBh57dsQZJmqkTAxdhjncI7wu0mTZ7sTO0D6phrMKDsoZxooowGMWXi9zR8xOSu-gcYV32Xo" width="602" height="279" />
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNKbwJ9lykPcinN3FogpneauZsBKDQYGyCehMxddZAfItGkIUHXOVuEeev3Jq1xkmI59rDPi8eveick9eY9xEAX44DUOYi2UQa6J2CyTVK5hJcvsK8x87sAdEepBkH4CHsfPEKBFpq1goHBV9K5vzE6SohH1ksCbgREAWpbY0nOibUwYEFd8c_Y0mUw/w400-h188/front.jpg" width="400" height="188" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNKbwJ9lykPcinN3FogpneauZsBKDQYGyCehMxddZAfItGkIUHXOVuEeev3Jq1xkmI59rDPi8eveick9eY9xEAX44DUOYi2UQa6J2CyTVK5hJcvsK8x87sAdEepBkH4CHsfPEKBFpq1goHBV9K5vzE6SohH1ksCbgREAWpbY0nOibUwYEFd8c_Y0mUw/s4024/front.jpg)
