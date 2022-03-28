@@ -26,7 +26,7 @@ my current rack looks like:
 
 Below is the schematics of connections between the blocks:
 
-[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAKc0ka0JdgTcSKaUoAEr2rDIMqH9m6TlLlki5VOYyjsX4Zyk9_u79iYnNyKtBIBCEKE76XREsOG_jgFwbWmEuDBCS9_vipJxw2VpFwFLPLW3MzxF7x5isiGawXtLbiyk3BHN05nHh3GR4NqjMuKwa2B-87OF72RNzaszuJac5mdOBYwi0P9XcrFgSug/w640-h296/Components-connection-scheme.png" width="640" height="296" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAKc0ka0JdgTcSKaUoAEr2rDIMqH9m6TlLlki5VOYyjsX4Zyk9_u79iYnNyKtBIBCEKE76XREsOG_jgFwbWmEuDBCS9_vipJxw2VpFwFLPLW3MzxF7x5isiGawXtLbiyk3BHN05nHh3GR4NqjMuKwa2B-87OF72RNzaszuJac5mdOBYwi0P9XcrFgSug/s947/Components-connection-scheme.png)
+[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgREoF0ceKOE1RnQZ0eiUXNrnwCEeo-SQq-7ne7ZE-71nQ2GhjL9hB15XckNqJN4EaEw_68IEdxx7iGs2dQpZNy94TMc7IS20-YCqb5DpyI6mBpZ2NUhzFWshMvsV7RfJsgZXah9C2Tbi-gZk3t20LnqNxAmLnKEJwoNZMzA-543FFcf1kxGgveZSxU3g/w640-h346/Components-connection-scheme.png" width="640" height="346" />](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgREoF0ceKOE1RnQZ0eiUXNrnwCEeo-SQq-7ne7ZE-71nQ2GhjL9hB15XckNqJN4EaEw_68IEdxx7iGs2dQpZNy94TMc7IS20-YCqb5DpyI6mBpZ2NUhzFWshMvsV7RfJsgZXah9C2Tbi-gZk3t20LnqNxAmLnKEJwoNZMzA-543FFcf1kxGgveZSxU3g/s898/Components-connection-scheme.png)
 
 As I've mentioned before, the heart of the system is a Mac—an old model Mini
 from 2014, which I'm also using to type this post in. I've highlighted the
