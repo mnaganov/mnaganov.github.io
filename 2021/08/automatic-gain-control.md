@@ -121,7 +121,7 @@ signal and the AGC circuit and obtained a result which looks very similar
 to the Figures 11.9 and 11.10 in the book.
 
 The input signal is a sinusoid of **1250 Hz** considered over a period
-of **1000** samples at the sampling rate of **20 kHz** (that's **50 ms**).
+of **1000** samples at the sampling rate of **20 kHz** (that's **50 µs**).
 Below are the input an the output signals, shown on the same graph:
 
 [![](https://1.bp.blogspot.com/-gW9JDiO9MVQ/YSLdkcM9XEI/AAAAAAAATyI/EZ1ouffBo9o_HjYqMbeuZcxBr4loUUrYwCLcBGAsYHQ/s16000/agc_hwr_io.png)](https://1.bp.blogspot.com/-gW9JDiO9MVQ/YSLdkcM9XEI/AAAAAAAATyI/EZ1ouffBo9o_HjYqMbeuZcxBr4loUUrYwCLcBGAsYHQ/s780/agc_hwr_io.png)
@@ -131,7 +131,7 @@ change:
 
 [![](https://1.bp.blogspot.com/-_TmhvTrkHU4/YSLd0449y9I/AAAAAAAATyU/Gv-6ujF9tDUIPRYMxwIN-VDOv_cG8XL_ACLcBGAsYHQ/s16000/agc_hwr_loop.png)](https://1.bp.blogspot.com/-_TmhvTrkHU4/YSLd0449y9I/AAAAAAAATyU/Gv-6ujF9tDUIPRYMxwIN-VDOv_cG8XL_ACLcBGAsYHQ/s780/agc_hwr_loop.png)
 
-The level analyzer is a half-wave rectifier, thus we only see only positive
+The level analyzer is a half-wave rectifier, thus we only see positive
 samples of the *output* signal as the **a** variable. This output is being
 smoothed by an LPF filter with a cut-off frequency of about **16 Hz**
 (**10 ms**—that's the **1/5th** of the modulation frequency), and the
@@ -240,7 +240,7 @@ changed to the 3rd:
 
 Another modification we can try is change the time constant of the
 LPF filter. If we make the filter much slower, the behavior of the gain
-factor **g** becomes much more linear, however the output signal
+factor **g** becomes much more linear, however the output signal is
 even less stable than the input signal:
 
 [![](https://1.bp.blogspot.com/-xVn3TVk5XuU/YSLe2MV0JTI/AAAAAAAATzI/PSfga6VLVvA0KHoqnvxQRJSknjTr_7kggCLcBGAsYHQ/s16000/agc_slow_io.png)](https://1.bp.blogspot.com/-xVn3TVk5XuU/YSLe2MV0JTI/AAAAAAAATzI/PSfga6VLVvA0KHoqnvxQRJSknjTr_7kggCLcBGAsYHQ/s780/agc_slow_io.png)
