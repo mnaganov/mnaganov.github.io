@@ -47,7 +47,7 @@ This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
     - [Making friends with Windows and ARTA](2018/04/making-friends-with-windows-and-arta.md)
     - Peter Millet's Soundcard Interface: [Part 1](2018/03/peter-millets-soundcard-interface.md), [Part 2](2018/04/peter-millets-soundcard-interface-part-2.md)
   - Feb
-    - JDS Labs Subjective3 Tone Control: [Part1](2018/02/jds-labs-subjective3-tone-control.md), [Part 2](2018/02/jds-labs-subjective3-part-2.md)
+    - JDS Labs Subjective3 Tone Control: [Part 1](2018/02/jds-labs-subjective3-tone-control.md), [Part 2](2018/02/jds-labs-subjective3-part-2.md)
     - [112dB Redline Monitor Plugin](2018/02/112db-redline-monitor-plugin.md)
   - Jan
     - [BBE 802 Sonic Maximizer Measurements and Teardown](2018/01/bbe-802-sonic-maximizer-measurements.md)
