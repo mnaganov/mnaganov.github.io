@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2022
+  - Sep - [MOTU: Multichannel Volume Control](2022/09/motu-multichannel-volume-control.md)
   - Aug - [Modular Audio Processing System, Part III](2022/08/modular-audio-processing-system-part-iii.md)
   - Jun - [Modular Audio Processing System, Part II](2022/06/modular-audio-processing-system-part-ii.md)
   - Mar - [Modular Audio Processing System, Part I](2022/03/modular-audio-processing-system-part-i.md)
