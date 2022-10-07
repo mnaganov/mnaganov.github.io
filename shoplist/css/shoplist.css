@@ -1,3 +1,5 @@
+/* -*- css-indent-offset: 2; -*- */
+
 * {
   font-family: Helvetica;
   -webkit-user-select: none;
@@ -7,29 +9,33 @@
   -webkit-column-count: 2;
 }
 
-body.done {
+body.done.mode-shop {
   background-color: #99ff99;
 }
 
-div.chosen {
+.mode-home div.needed {
   color: #c00000;
   text-decoration: underline;
 }
 
-div.grayed {
+.mode-shop div.needed {
+  color: #000000;
+}
+
+.mode-shop div.not-needed {
   color: #e0e0e0;
 }
 
-div.bought {
+.mode-shop div.bought {
   color: #c0c0c0;
   text-decoration: line-through;
 }
 
-div.edited {
+.mode-home div.edited {
   -webkit-user-select: auto; !important
 }
 
-div.highlight {
+.mode-home div.highlight {
   color: #ffffff;
   background-color: #000080;
 }

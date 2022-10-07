@@ -1,12 +1,17 @@
+// -*- js-indent-level: 2; -*-
+
 var Mode = {
   HOME: 1,
   SHOP: 2,
+  RESET: 3,
   current: 1
 };
 
-var kClassChosen = "chosen";
+var kClassModeHome = "mode-home";
+var kClassModeShop = "mode-shop";
+var kClassNeeded = "needed";
+var kClassNotNeeded = "not-needed";
 var kClassBought = "bought";
-var kClassGrayed = "grayed";
 var kClassEdited = "edited";
 var kClassItem = "item";
 var kClassOptionSelected = "option-selected";
@@ -23,10 +28,13 @@ function documentClick(event)
   var element = event.target;
   if (!element)
     return;
-  if (element.hasStyleClass(kClassItem))
-    itemClicked(element);
-  else if (element.id === "reset-button")
-    reset();
+  if (element.hasStyleClass(kClassItem)) {
+    if (Mode.current === Mode.RESET) {
+      reset();
+    } else {
+      itemClicked(element);
+    }
+  }
   else if (element.constructor === HTMLInputElement)
     radioClicked(element);
   else if (element.previousSibling.constructor === HTMLInputElement) {
@@ -60,13 +68,16 @@ function itemClicked(element)
     if (element.hasStyleClass(kClassEdited) ||
         element.hasStyleClass(kClassBought))
       return;
-    if (element.hasStyleClass(kClassChosen))
-      element.removeStyleClass(kClassChosen);
-    else
-      element.addStyleClass(kClassChosen);
+    if (element.hasStyleClass(kClassNeeded)) {
+      element.removeStyleClass(kClassNeeded);
+      element.addStyleClass(kClassNotNeeded);
+    } else {
+      element.removeStyleClass(kClassNotNeeded);
+      element.addStyleClass(kClassNeeded);
+    }
     break;
   case Mode.SHOP:
-    if (element.hasStyleClass(kClassGrayed))
+    if (!element.hasStyleClass(kClassNeeded))
       return;
     if (element.hasStyleClass(kClassBought))
       element.removeStyleClass(kClassBought);
@@ -99,7 +110,8 @@ function itemLongPressed(element)
 {
   delete element.longPressTimer;
   element.contentEditable = true;
-  element.addStyleClass(kClassChosen);
+  element.removeStyleClass(kClassNotNeeded);
+  element.addStyleClass(kClassNeeded);
   element.addStyleClass(kClassEdited);
   element.focus();
   element.onblur = itemOnBlur;
@@ -130,6 +142,7 @@ function radioClicked(element)
   switch (element.id) {
   case "home-switch": switchToHomeMode(list); break;
   case "shop-switch": switchToShopMode(list); break;
+  case "reset-switch": switchToResetMode(list); break;
   }
   saveState(list);
 }
@@ -149,6 +162,7 @@ function loadItems(items)
       var item = document.createElement("div");
       item.textContent = items[i];
       item.className = kClassItem;
+      item.addStyleClass(kClassNotNeeded);
       result.appendChild(item);
     } else {
       var separator = document.createElement("hr");
@@ -187,6 +201,10 @@ function loadState(list)
     document.getElementById("shop-switch").checked = true;
     switchToShopMode(list);
     break;
+  case Mode.RESET:
+    document.getElementById("reset-switch").checked = true;
+    switchToResetMode(list);
+    break;
   }
   for (var node = list.firstChild, i = 1, l = state.length; node && (i < l); node = node.nextSibling) {
     if (node.hasStyleClass(kClassItem)) {
@@ -211,8 +229,10 @@ function onLoad()
     document.getElementById("home-switch").checked = true;
     document.getElementById("home-label").addStyleClass(kClassOptionSelected);
   }
-  if (Mode.current === Mode.SHOP)
+  if (Mode.current !== Mode.RESET) {
+    document.body.addStyleClass(kClassModeHome);
     updateDoneState(document.getElementById("list"));
+  }
 }
 
 function saveState(list)
@@ -238,17 +258,16 @@ function switchToShopMode(list)
   Mode.current = Mode.SHOP;
   document.getElementById("home-label").removeStyleClass(kClassOptionSelected);
   document.getElementById("shop-label").addStyleClass(kClassOptionSelected);
+  document.getElementById("reset-label").removeStyleClass(kClassOptionSelected);
   for (var node = list.firstChild; node; node = node.nextSibling) {
     if (!node.hasStyleClass(kClassItem)) continue;
     if (node.hasStyleClass(kClassEdited)) {
       node.removeStyleClass(kClassEdited);
       node.contentEditable = false;
     }
-    if (node.hasStyleClass(kClassChosen))
-      node.removeStyleClass(kClassChosen);
-    else
-      node.addStyleClass(kClassGrayed);
   }
+  document.body.removeStyleClass(kClassModeHome);
+  document.body.addStyleClass(kClassModeShop);
   updateDoneState(list);
 }
 
@@ -258,14 +277,20 @@ function switchToHomeMode(list)
   Mode.current = Mode.HOME;
   document.getElementById("home-label").addStyleClass(kClassOptionSelected);
   document.getElementById("shop-label").removeStyleClass(kClassOptionSelected);
-  for (var node = list.firstChild; node; node = node.nextSibling) {
-    if (!node.hasStyleClass(kClassItem)) continue;
-    if (node.hasStyleClass(kClassGrayed))
-      node.removeStyleClass(kClassGrayed);
-    else
-      node.addStyleClass(kClassChosen);
-  }
-  document.body.removeStyleClass(kClassDone);
+  document.getElementById("reset-label").removeStyleClass(kClassOptionSelected);
+  document.body.removeStyleClass(kClassModeShop);
+  document.body.addStyleClass(kClassModeHome);
+}
+
+function switchToResetMode(list)
+{
+  if (Mode.current === Mode.RESET) return;
+  Mode.current = Mode.RESET;
+  document.getElementById("home-label").removeStyleClass(kClassOptionSelected);
+  document.getElementById("reset-label").addStyleClass(kClassOptionSelected);
+  document.getElementById("shop-label").removeStyleClass(kClassOptionSelected);
+  document.body.removeStyleClass(kClassModeHome);
+  document.body.removeStyleClass(kClassModeShop);
 }
 
 function updateAfterEditing(list, node)
@@ -295,16 +320,17 @@ function updateAfterEditing(list, node)
 
 function updateDoneState(list)
 {
-  var done = true;
+  var hasNeeded = false, done = true;
   for (var node = list.firstChild; node; node = node.nextSibling) {
-    if (node.hasStyleClass(kClassItem)
-        && !node.hasStyleClass(kClassGrayed)
-        && !node.hasStyleClass(kClassBought)) {
-      done = false;
-      break;
+    if (node.hasStyleClass(kClassItem) && node.hasStyleClass(kClassNeeded)) {
+      hasNeeded = true;
+      if (!node.hasStyleClass(kClassBought)) {
+        done = false;
+        break;
+      }
     }
   }
-  if (done)
+  if (hasNeeded && done)
     document.body.addStyleClass(kClassDone);
   else
     document.body.removeStyleClass(kClassDone);
