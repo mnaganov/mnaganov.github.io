@@ -189,7 +189,7 @@ particular graph is for the setting for open-back headphones (Shure SRH1840).
 This is an improvement over my initial processing setup which was only
 compliant with more "relaxed" recommendations for reverb times for a "music
 presentations" room (DIN 18041, see the picture in the older post
-[here](/2021/11/headphone-stereo-setup.html#reverberation).
+[here](/2021/11/headphone-stereo-setup.html#reverberation)).
 
 The important thing about preparing the impulse response of the reverb is
 to cut out the first strong impulse of the signal, leaving only late
