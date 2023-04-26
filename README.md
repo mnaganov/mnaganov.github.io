@@ -2,6 +2,8 @@
 
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
+* 2023
+  - Apr - [Headphone Stereo Setup Improved, Part I](2023/04/headphone-stereo-setup-improved-part-i.md)
 * 2022
   - Nov - [Long Live 16 Color Terminals](2022/11/long-live-16-color-terminals.md)
   - Sep - [MOTU: Multichannel Volume Control](2022/09/motu-multichannel-volume-control.md)
