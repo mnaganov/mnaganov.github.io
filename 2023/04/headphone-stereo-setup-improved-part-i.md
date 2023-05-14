@@ -2,21 +2,21 @@
 
 It was a long time ago since [I started
 experimenting](/2021/11/headphone-stereo-setup.html) with a DSP setup for
-headphone playback which achieves more realistic reproduction of regular stereo
+headphone playback, which achieves more realistic reproduction of regular stereo
 records originally intended for speakers. This is similar to what "stereo
 spatialization" does. Since then, I have been experimenting with various
 settings for my DIY spatializer with an aim to make it more immersive and
 natural, and have learned new things along the way.
 
-In this post I would like to present an updated version of the processing chain
+In this post, I would like to present an updated version of the processing chain
 along with the discussion of the underlying approach. Since there is a lot of
-material to cover, I decided to split the post into two parts.  In the first
-part I talk about relevant research and outline the processing pipeline. In the
-second part I will tell you about the process of individual tuning of the setup.
+material to cover, I decided to split the post into two parts. In the first
+part, I talk about relevant research and outline the processing pipeline. In the
+second part, I will tell you about the process of individual tuning of the setup.
 
 ## New Considerations
 
-My initial understanding was that I need to model a setup of stereo speakers in
+My initial understanding was that I needed to model a setup of stereo speakers in
 a room. However, after reading more works by S. Linkwitz about stereo recording
 and reproduction: ["Stereo Recording &
 Rendering—101"](https://linkwitzlab.com/Recording/AS_creation.htm), and
@@ -33,7 +33,7 @@ over stereo speakers has its own well-known limitations and flaws. Moreover, if
 the speakers and the room are set up in a way which works around and minimizes
 the effect of these flaws, the speakers "disappear" and we hear the recorded
 venue, not the speakers and the room. Thus, I realized, if I take my initial
-intention to the limit and strive to model this ideal speaker setup in
+intention to the limit and strive to model this ideal speaker setup on
 headphones, then I just need to work towards reproducing on headphones the
 recorded venue itself, since an ideal speakers-room setup is "transparent" and
 only serves as a medium for the reproduction.
@@ -50,7 +50,7 @@ Effects Of Interaural Crosstalk On Stereo Reproduction And Minimizing Interaural
 Crosstalk In Nearfield Monitoring By The Use Of A Physical Barrier" (in 2 parts:
 [part 1](https://www.aes.org/e-lib/browse.cfm?elib=5010), [part
 2](https://www.aes.org/e-lib/browse.cfm?elib=5009)), published in 1986. Their
-modeling and measurements demonstrates that comb filtering increases with
+modeling and measurements demonstrate that comb filtering increases with
 correlation, thus the center image which is formed by fully correlated outputs
 is the most affected one. Floyd Toole also expresses his concerns about the
 change of the timbre of the center image caused by comb filtering in his seminal
@@ -62,7 +62,7 @@ The solution for crosstalk reduction used by Bock & Keele employed a physical
 barrier between the stereo speakers—remember, it was 1986 and high quality audio
 DSP was not nearly as affordable as it is these days. In fact, their solution
 was sort of a prototype for the family of DSP technologies which is now known as
-[Ambiophonics](https://en.wikipedia.org/wiki/Ambiophonics). Whereas Floyd Toole
+[Ambiophonics](https://en.wikipedia.org/wiki/Ambiophonics). Whereas, Floyd Toole
 advocates for multi-speaker setups—the more speakers, the better—so that each
 source ideally gets its own speaker. This is where the mainstream "immersive
 audio" technology is heading.
@@ -80,7 +80,7 @@ under our control.
 My takeaway from these considerations and experiments is that the center channel
 should be left intact as much as possible. What is the "center channel" in a
 stereo recording?—It's the sum of the left and right channels. In the audio
-engineering world this is known as the "Mid" component of "Mid/Side"
+engineering world, this is known as the "Mid" component of the "Mid/Side"
 representation. Note that "Mid" is actually more than just the center. If we
 consider what happens when we add left and right channels together (L+R), we can
 observe the following results:
@@ -88,7 +88,7 @@ observe the following results:
  - fully correlated images sum and become twice as loud (**+6 dB**)
    over non-correlated ones;
  - uncorrelated images—those that exist in the left or right channel
-   only, still remain but they are "softer" than the center image;
+   only, still remain, but they are "softer" than the center image;
  - reverse correlated (or anti-correlated) images—those that exist both
    in the left and the right channel but have their phases reversed,
    disappear.
@@ -110,7 +110,7 @@ signal due to doubling of the amplitude, we can convert back and forth between
 stereo and Mid/Side as many times as we need.
 
 Thanks to their simplicity and usefulness, M/S encoding and decoding are
-built-in tools of every DAW. However, to simplify my processing chain I prefer
+built-in tools of every DAW. However, to simplify my processing chain, I prefer
 to use a dedicated plugin by Voxengo called
 [MSED](https://www.voxengo.com/product/msed/). The benefit of using MSED is
 that it can work "inline", which means it encodes stereo as M/S, processes it,
@@ -129,15 +129,15 @@ fully correlated, effectively this is what a "mono" signal is. While the "Side
 Only" output is still a "stereo" signal in which the left and right channels are
 reverse correlated.
 
-By looking at the waveforms above we can confirm that we get the original signal
+By looking at the waveforms above, we can confirm that we get the original signal
 back by summing "Mid Only" and "Side Only" tracks together. Thus, it is possible
 to apply different processing to these parts and be sure that we preserve all
 the aural information from the source recording.
 
 ### Stereo Reverb Of The Real Room
 
-Even during my initial experiments I understood that for increasing envelopment
-and spaciousness a reverb must be used. What I didn't fully understand back then
+Even during my initial experiments, I understood that for increasing envelopment
+and spaciousness, a reverb must be used. What I didn't fully understand back then
 was that the more uncorrelated reverb impulses between left and right channels
 are, the better it works for listener envelopment. This idea was explored by
 Schroeder in his works on reverb synthesis by DSP (see the Section 3.4.4 in the
@@ -155,7 +155,7 @@ more natural sounding and was seemingly recorded in some real room because after
 looking at its specter I could see signs of room modes. Impulses of its left and
 right channel were decorrelated enough—overall Inter-Channel Cross Correlation
 (ICCC), as reported by Acourate is less than **12%**. However, while listening
-to reverb alone I could still hear a slightly ratcheting echo—why is that?
+to reverb alone, I could still hear a slightly ratcheting echo—why is that?
 
 I checked autocorrelation for each channel in Audacity and found that I can see
 lots hard reflections in them:
@@ -173,7 +173,7 @@ look at the autocorrelations of channels:
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw2Ka0D_rRauvy5zJcmjv12GvIESG7dV_YyEpwGowgNz-Ti3KS5Vulwdalb0MgNUyxSfpU6C_RBLVqDpEYCXNgGCAcJmp6ZbfOiQgaRdRdnJqfK5m_-pcbu2CEYMixHqR2--_Sf3ol7fjWh1VB9JeCv__lSZhEbh1xkueDamBiGUnHeIEilm7_BCaETA/s16000/Room-Reverb-L-R.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw2Ka0D_rRauvy5zJcmjv12GvIESG7dV_YyEpwGowgNz-Ti3KS5Vulwdalb0MgNUyxSfpU6C_RBLVqDpEYCXNgGCAcJmp6ZbfOiQgaRdRdnJqfK5m_-pcbu2CEYMixHqR2--_Sf3ol7fjWh1VB9JeCv__lSZhEbh1xkueDamBiGUnHeIEilm7_BCaETA/s780/Room-Reverb-L-R.png)
 
-So, in fact it was my mistake that I was shunning away from using my room's
+So, in fact, it was my mistake that I was shunning away from using my room's
 actual reverb, considering it being "non-ideal." And thanks to the fact that
 headphones create a more controlled environment, I could adjust the
 direct-to-reverb ratio to be anything I want. As a result, I created a reverb
@@ -195,7 +195,7 @@ The important thing about preparing the impulse response of the reverb is
 to cut out the first strong impulse of the signal, leaving only late
 reflections and the reverb "tail." In the processing chain, the "direct"
 signal comes from another track. By separating the direct signal from the
-reverb it becomes much easier to adjust the ratio between their levels, and
+reverb, it becomes much easier to adjust the ratio between their levels, and
 this becomes important once we try using different types of headphones,
 more about this in the upcoming part II.
 
@@ -203,7 +203,7 @@ more about this in the upcoming part II.
 
 Yet another finding has solidified my conclusion about the need of using a real
 room reverb. The paper "Creating Auditory Illusions with Binaural Technology" by
-Karlheinz Brandenburg et al, published in the collection of papers ["The
+Karlheinz Brandenburg et al., published in the collection of papers ["The
 Technology of Binaural
 Understanding"](https://link.springer.com/book/10.1007/978-3-030-00386-9) edited
 by Jens Blauert and Jonas Braach describes an interesting experiment that
@@ -222,12 +222,12 @@ when using open-back headphones, since they don't provide any isolation from
 external sounds. Thus, unless the room where you are listening to the headphones
 is completely isolated from the world outside, you still hear the sounds from
 the "real" world, processed with the real room acoustics. This forms an
-"expectation" to the audiory system of how external sounds should sound like. If
+"expectation" to the auditory system of how external sounds should sound like. If
 the reverb used for headphone processing does not match this expectation, the
 brain gets confused, and it's more likely that the auditory image will collapse
 to ITL. Obviously, closed-backs and especially IEMs isolate better, and for them
 this effect might be less important for consideration. However, our eyes still
-see the room, and this can also form expectaions about the reverb. Thus, using a
+see the room, and this can also create expectations about the reverb. Thus, using a
 real room reverb seems to improve chances for experiencing externalization in
 headphones, compared to using an "abstract" modeled reverb.
 
@@ -240,7 +240,7 @@ version of the room reverb to the Side output, and a softer (more attenuated)
 version to the Mid output.
 
 Since the Side Only output from MSED already contains uncorrelated and reverse
-correlated signals, "fuzzing" it more with an uncorrelated stereo reverb does
+correlated signals, "fuzzing" it even more with an uncorrelated stereo reverb does
 not hurt. In fact, it only makes it better—more spacious and lasting longer,
 giving the hearing system a better opportunity to analyze the signal. To help
 the brain even more, we also apply cross-feed to the result. Since cross-feeding
@@ -252,7 +252,7 @@ much weaker, the application of cross-feed does not produce a fully correlated
 output, and this is what we want.
 
 When I listen to this "Side Only" reverb in headphones, the representation is
-fully externalized. When I stand in front of the speakers it feels like I hear
+fully externalized. When I stand in front of the speakers, it feels like I hear
 them playing. However, since I'm listening to anti- and uncorrelated parts, the
 audio image is "smeared" and serves only for the purpose of envelopment. For a
 better effect, the reverb used for the "Side Only" channel is massaged by a
@@ -261,7 +261,7 @@ simulates natural shadowing of signals that come from the back.
 
 Leaving the center channel completely devoid of reverberation makes it sound in
 headphones too "dry" and too close. That's why in addition to the relatively
-strong room reverb applied to Side Only output, I also apply much weaker and
+strong room reverb applied to the Side Only output, I also apply much weaker and
 more delayed room reverb to the "Mid Only" component of the input signal. The
 idea is that this delayed reverb should be unnoticeable by our "conscious" part
 of the hearing apparatus, and only act as a spaciousness and distance hint to
@@ -270,15 +270,15 @@ precedence effect](https://en.wikipedia.org/wiki/Precedence_effect),
 complementing the direct sound and reinforcing it, while still being perceived
 as a part of it (a.k.a. "fusion").
 
-Listening to this "Mid Only" reverb in headphones I hear a "focused" sound of
+Listening to this "Mid Only" reverb in headphones, I hear a "focused" sound of
 the speakers in the room. That's because the signal is formed from a "mono"
 signal. However, application of an uncorrelated stereo reverb "smears" it and
 adds some width. In order to find the desired delay and attenuation for the "Mid
-Only" reverb I play a dry recording of some strong percussive instrument, like
-bongos and increase delay and reduce its level until I stop noticing the
+Only" reverb, I play a dry recording of some strong percussive instrument, like
+bongos, and increase the delay and reduce its level until I stop noticing the
 reverb. Yet, when I toggle the track with this extra reverb on and off, I can
 hear the change in the perceived distance to bongos. If the delay is increased
-too much it "breaks" the precedence effect and the reverb turns into an echo.
+too much, it "breaks" the precedence effect and the reverb turns into an echo.
 
 ### Diffuse And Free Field Equalization
 
@@ -295,10 +295,10 @@ post](https://meadkillion.typepad.com/audio_insights/2007/07/every-dolby-the.htm
 On the other side, there is the idea that the headphones must be tuned after the
 canonical 60 degree speaker setup, as measured in a free field (FF), or in an
 anechoic chamber. In practice, when listening to a "raw" (non-binauralized)
-stereo in headphones none of these tunings work satisfactory for the general
+stereo in headphones, none of these tunings work satisfactory for the general
 audience, and headphone makers usually settle up upon some compromise which
 keeps listeners engaged, based on an "expert opinion" or studies. One well-known
-example is of course the Harman target curve. There is also an interesting
+example is, of course, the Harman target curve. There is also an interesting
 systematic approach for blending the curves of the free and diffuse field curves
 based on the room acoustics, proposed in the paper with a rather long title
 ["Free Plus Diffuse Sound Field Target Earphone Response Derived From Classical
@@ -312,7 +312,7 @@ logical if we aim for tonally neutral equipment. After all, we intend to apply
 any corrections in the digital domain and don't want to deal with undoing the
 "character" of the DAC, the amplifier, or the headphones that we use.
 
-Returning back to the paper by Brandenburg et al, another interesting finding
+Returning to the paper by Brandenburg et al., another interesting finding
 which it points out is that the source directions for which achieving
 externalization in headphones is the most difficult are the full frontal and the
 full backward ones (**0** and **180** degrees in the median plane). The
@@ -322,11 +322,11 @@ theory](https://en.wikipedia.org/wiki/Sound_localization#Duplex_theory).  I
 decided to aid the brain to resolve this confusion by giving correlated sounds
 an "FF-like" frequency shape, and giving their counterparts—anti-correlated
 sounds a "DF-like" shape. In order to do that, I used the results of yet another
-paper ["Determination of noise immission from sound sources close to the
+paper, ["Determination of noise immission from sound sources close to the
 ears"](https://vbn.aau.dk/ws/portalfiles/portal/227876689/2008_Hammersh_i_and_M_ller_AAA.pdf)
 by D. Hammershøi and H. Møller. It provides averaged frequency shapes for FF and
 DF sound sources measured at various points of the ear: blocked ear canal, open
-ear canal, and the eardrum. Using the tabulated data from the paper I could
+ear canal, and the eardrum. Using the tabulated data from the paper, I could
 create "FF-to-DF" and "DF-to-FF" compensation curves. Below are the graphs of
 the "DF-to-FF" curves, marked with "BE", "OE", and "ED" for the measurement
 points listed above. The "FF-to-DF" curves can be obtained by inverting these
@@ -335,20 +335,20 @@ graphs.
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTFmf0UeFJAW_FzLF5jSrCoodUaz3uxpm6q50psLcWyLO1Vcz6yKNtR5YCoaSaDvok6lG3-mOiUePGHBUqF104_HuSXWHZMOG1dKEC4EoHiGWRasqW1gQL6uOLfFROONyYHm0HvQrPqAEf3_6YZMpfvpawIDINM9kL3CVJLV7i9Gl7yceY3Nkipm3AtA/s16000/df-to-ff-full-curves.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTFmf0UeFJAW_FzLF5jSrCoodUaz3uxpm6q50psLcWyLO1Vcz6yKNtR5YCoaSaDvok6lG3-mOiUePGHBUqF104_HuSXWHZMOG1dKEC4EoHiGWRasqW1gQL6uOLfFROONyYHm0HvQrPqAEf3_6YZMpfvpawIDINM9kL3CVJLV7i9Gl7yceY3Nkipm3AtA/s780/df-to-ff-full-curves.png)
 
 Since the paper uses averaged data, the curves are rather smooth except for the
-high frequency part starting at **6.3 kHz** which reflects the effect of the
+high frequency part starting at **6.3 kHz**, which reflects the effect of the
 pinna filtering and the ear canal resonance. Thus, I decided to have two
 versions for each compensation curve: a complete one, and the one which only
 goes up to **5 kHz**. When applying the "complete DF-to-FF at the eardrum" curve
-to the "Mid Only" component I could indeed make it sound more "frontal" (when
+to the "Mid Only", component I could indeed make it sound more "frontal" (when
 using Shure SRH1840 headphones, at least). While applying the "low pass FF-to-DF
 at the eardrum" compensation to the "Side Only" component makes it more
 "enveloping."
 
 ### The Effect of Adding Harmonic Distortion
 
-Yet another suprising effect which I have discovered myself is how adding
+Yet another surprising effect which I have discovered myself is how adding
 harmonic distortions affects apparent source width (ASW). By adding to the "Mid
-Only" reverb the 2nd harmonic I could make it sound more "focused."  While
+Only" reverb the 2nd harmonic, I could make it sound more "focused."  While
 adding the 3rd harmonic to the "Side Only" reverb makes it even wider.  Just to
 reiterate, the harmonics are only added to reverbs, not to the direct sound,
 thus the overall level of added harmonics is minimal.
@@ -358,7 +358,7 @@ more information on its possible cause later.
 
 ## The Goal of Spatialization
 
-After going through all these lengthy explanations you may be wondering what's
+After going through all these lengthy explanations, you may be wondering what's
 the actual outcome of this? After all, there are commercially available
 spatializers, with no-hassle setup, with head tracking, etc. Are there any
 benefits besides learning more about how the human auditory system works? I've
@@ -369,20 +369,20 @@ mine, and I find mine to be more precise and more realistic, allowing to achieve
 a true state of "immersion."
 
 It's an interesting experience which sort of comes and goes, and depends on the
-track and the headphones being used. After **12–15** minutes of listening the
+track and the headphones being used. After **12–15** minutes of listening, the
 brain gets accustomed to the reproduction and eventually starts "believing" that
 it actually hears the world created by the track. Headphones "disappear"—they
 feel no different from a hat—we "know" when wearing a hat that it's not the hat
 who creates the auditory world around us, and I do "know" in the "immersed"
-state that the sound around me does not originate from the headphones. The eyes
+state that the surrounding sound does not originate from the headphones. The eyes
 start automatically following sound sources when they move, and I can really
 feel their presence. It's also super easy to turn my auditory attention focus
 from one object to another. It's really a sense of immersion, and it's similar
-to the feeling of "transparent reproduction" of music via speakers—sort of an
+to the feeling of "transparent reproduction" of music via speakers—sort of
 "audiophile nirvana."
 
 So, yeah, for me it's more interesting to build my own setup and I believe that
-I can make it sounding more natural than affordably priced commercial
+I can make it sound more natural than affordably priced commercial
 solutions. A similar thing is with speakers. Sure, there exist a lot of really
 good speakers, which may work fantastically out of the box, however some people,
 myself included, find it rewarding to build—if not design—their own.
@@ -396,7 +396,7 @@ processing chain:
 
 Let's go over the processing blocks of the chain. Note that the actual values
 for plugin parameters are only specified as an example. In the Part II of this
-post I will go through the process of finding the suitable values for particular
+post, I will go through the process of finding the suitable values for particular
 headphones and ears.
 
 The "Input" block is just a convenience. Since my chain is "implemented" as a
@@ -405,7 +405,7 @@ switch the input source, try rendering a media file (via the master bus) in
 order to check for the absence of clipping, and apply attenuation if necessary.
 
 The **3** processing blocks are wired in parallel, and in fact consist of the
-same set plugins, just with different settings. The purpose of having the same
+same set of plugins, just with different settings. The purpose of having the same
 set of plugins is to make time alignment easier. Although Reaper can compensate
 for the processing delay, sometimes this does not work right, and having the
 same set of plugins works more reliably.
@@ -424,7 +424,7 @@ MConvolutionEZ](https://www.meldaproduction.com/MConvolutionEZ). The cross-feed
 plugin uses a different setting than the "Direct" block—the center attenuation
 is set to the maximum, **-3 dB** and a slightly wider speaker angle: **70 deg**
 is used. This is to avoid producing overly cross-correlated output. Then, also
-as explained above, the 3rd harmonic is added by using [Fielding DSP
+as explained above, the 3rd harmonic is added by using the [Fielding DSP
 Reviver](https://www.fieldingdsp.com/reviver) plugin.
 
 The "Mid Reverb" block processes the Mid component only. It uses a whole version
@@ -449,21 +449,21 @@ the technique originally proposed by David Griesinger.
 Then the [Goodhertz Tone Control](https://goodhertz.com/tone-ctrl/) plugin is
 used to adjust the spectral tilt. The slopes are set to **0%** both for bass and
 treble. This creates a very smooth tilt which practically does not affect the
-phase and thus there is no need to switch the plugin into the "Linear Phase"
+phase, and thus there is no need to switch the plugin into the "Linear Phase"
 mode. Note that although LP10 can also apply a spectral tilt, it's less flexible
-than what Tone Control can do. Finally the MConvolutionEZ plugin, used in "Mid"
-and "Side" mode is used to apply "DF-to-FF" or "FF-to-DF" correction curves.
+than what Tone Control can do. Finally, the MConvolutionEZ plugin, operating in
+"Mid" and "Side" modes, is used to apply "DF-to-FF" or "FF-to-DF" correction curves.
 
 Obviously, linear phase plugins create significant latency, thus this setup is
 not intended for a "real-time" playback. However, using linear phase mode is
 worth it. I actually tried doing headphone balance adjustments using a regular
 minimum phase equalizer, and the result was much more "fuzzier."  In fact, I can
 hear the same kind of "fuzziness" in the iOS spatializer running in "head
-tracking" mode. It seems that minimum phase equalization with narrow band
+tracking" mode. It seems that minimum phase equalization with narrowband
 filters causes a significant increase of ASW of sound sources.
 
 ## What's Next
 
-In the upcoming Part II of this post I will provide steps on finding the right
+In the upcoming Part II of this post, I will provide steps on finding the right
 values to configure the processing components. These parameters are printed *in
 italics* on the processing chain scheme from the previous section.
