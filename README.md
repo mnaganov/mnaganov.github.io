@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2023
+  - Jun - [On Mid/Side Equalization](2023/06/on-midside-equalization.md)
   - Apr - [Headphone Stereo Setup Improved, Part I](2023/04/headphone-stereo-setup-improved-part-i.md)
 * 2022
   - Nov - [Long Live 16 Color Terminals](2022/11/long-live-16-color-terminals.md)
