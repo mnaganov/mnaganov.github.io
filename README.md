@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2023
+  - Sep - [(Almost) Linear Phase Crossfeed](2023/09/almost-linear-phase-crossfeed.md)
   - Jul - [Headphone Stereo Setup Improved, Part II](2023/07/headphone-stereo-setup-improved-part-ii.md)
   - Jun - [On Mid/Side Equalization](2023/06/on-midside-equalization.md)
   - Apr - [Headphone Stereo Setup Improved, Part I](2023/04/headphone-stereo-setup-improved-part-i.md)
