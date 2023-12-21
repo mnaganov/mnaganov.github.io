@@ -157,7 +157,7 @@ frequencies.
 
 The output from the "ipsi-" and "contralateral" blocks of the chain gets shaped
 by crossfeed filters. If you recall, previously I came up with [a crossfeed
-implementation](/2023/09/almost-linear-phase-crossfeed.md) which uses close to
+implementation](/2023/09/almost-linear-phase-crossfeed.html) which uses close to
 linear phase filters. I still use the all-pass component in the new chain, for
 creating the group delay, however, the shape of the magnitude response of the
 filter for the opposite (contralateral) ear is now more complex, and reflects
