@@ -2,6 +2,8 @@
 
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
+* 2024
+  - Feb - [The Math of The ITD Filter and Thoughts on Asymmetry](2024/02/the-math-of-itd-filter-and-thoughts-on.md)
 * 2023
   - Dec - [Headphone Stereo Improved, Part III](2023/12/headphone-stereo-setup-improved-part-iii.md)
   - Sep - [(Almost) Linear Phase Crossfeed](2023/09/almost-linear-phase-crossfeed.md)
