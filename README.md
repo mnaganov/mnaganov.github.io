@@ -3,9 +3,10 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2024
+  - Mar - [Headphone Equalization For The Spatializer](2024/03/headphone-equalization-for-spatializer.md)
   - Feb - [The Math of The ITD Filter and Thoughts on Asymmetry](2024/02/the-math-of-itd-filter-and-thoughts-on.md)
 * 2023
-  - Dec - [Headphone Stereo Improved, Part III](2023/12/headphone-stereo-setup-improved-part-iii.md)
+  - Dec - [Headphone Stereo Improved, Part III](2023/12/headphone-stereo-improved-part-iii.md)
   - Sep - [(Almost) Linear Phase Crossfeed](2023/09/almost-linear-phase-crossfeed.md)
   - Jul - [Headphone Stereo Setup Improved, Part II](2023/07/headphone-stereo-setup-improved-part-ii.md)
   - Jun - [On Mid/Side Equalization](2023/06/on-midside-equalization.md)
