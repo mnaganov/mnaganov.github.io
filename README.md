@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2024
+  - Jun - [LXmini Desktop Version (LXdesktop)—Part I: Build](2024/06/lxmini-desktop-version-lxdesktoppart-i.md)
   - Mar - [Headphone Equalization For The Spatializer](2024/03/headphone-equalization-for-spatializer.md)
   - Feb - [The Math of The ITD Filter and Thoughts on Asymmetry](2024/02/the-math-of-itd-filter-and-thoughts-on.md)
 * 2023
