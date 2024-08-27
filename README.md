@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2024
+  - Aug - [LXmini Desktop Version (LXdesktop)—Part III: Binaural Tuning](2024/08/lxmini-desktop-version-lxdesktoppart.md)
   - Jul
      - [Adding Bass Traps](2024/07/adding-bass-traps.md)
      - [LXmini Desktop Version (LXdesktop)—Part II: DSP Tuning](2024/07/lxmini-desktop-version-lxdesktoppartii.md)
