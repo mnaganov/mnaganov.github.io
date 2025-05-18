@@ -330,8 +330,8 @@ headphones to check it. I even used Apple EarPods for some testing! Just
 one note—if you are listening on modern headphones that support "spatial
 audio", make sure you turn it off and just use the plain stereo mode:
 
- - [YouTube | Yello Stereo to Binaural demo](https://youtu.be/WE5dc3kYS5o)
- - [Drive | Yello Stereo to Binaural
+ - [YouTube / Yello Stereo to Binaural demo](https://youtu.be/WE5dc3kYS5o)
+ - [Drive / Yello Stereo to Binaural
 demo](https://drive.google.com/file/d/1TDdHrEyF-F5NS3nE79X-DSwyLGMnKzLu/view?usp=drive_link)
 
 (Of course, these are provided for educational or personal use only).
@@ -375,8 +375,8 @@ headphones. So, as an example, here is an excerpt from
 piano album, where my chain is rendered for HD800, again both as YouTube
 and "offline" files:
 
- - [YouTube | Schubert Stereo to Binaural demo](https://youtu.be/2G7yVCFgWr8)
- - [Drive | Schubert Stereo to Binaural demo](https://drive.google.com/file/d/1Mui4DQAlJDHYTW96CGIOU4i8dsljEGs6/view?usp=drive_link)
+ - [YouTube / Schubert Stereo to Binaural demo](https://youtu.be/2G7yVCFgWr8)
+ - [Drive / Schubert Stereo to Binaural demo](https://drive.google.com/file/d/1Mui4DQAlJDHYTW96CGIOU4i8dsljEGs6/view?usp=drive_link)
 
 One thing that I have noted when comparing my binaural rendering with
 Cobra's binaural recording is that the latter for some reason have left and
