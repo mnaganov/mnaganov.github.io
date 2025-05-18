@@ -1,7 +1,7 @@
 # LXdesktop Headphone Auralization Tuning
 
 This post continues the previous post [LXdesktop Auralization with
-Ambisonics](/2024/12/lxdesktop-auralization-with-ambisonics.md) providing
+Ambisonics](/2024/12/lxdesktop-auralization-with-ambisonics.html) providing
 more details on the tuning of the chain that I have built, as well as some
 listening impressions of myself and from other people to whom I have demoed
 the setup.
@@ -143,7 +143,7 @@ So it seems that we need to decompose our stereo signal and separate
 object-based audio scene representations this decomposition is given, but
 for stereo sources we have to do some work. I decided to employ the
 approach similar to the one described in the post [Headphone Stereo
-Improved, Part III](/2023/12/headphone-stereo-improved-part-iii.md).
+Improved, Part III](/2023/12/headphone-stereo-improved-part-iii.html).
 I separated the stereo stream into **3** components:
 
  - mostly correlated components: the "phantom center";
@@ -187,7 +187,7 @@ which correspond to different source positions, based on their correlation:
 
 If you want to refresh your understanding of interchannel correlation,
 please refer to my old post [On Mid/Side
-Equalization](/2023/06/on-midside-equalization.md). Of course, this
+Equalization](/2023/06/on-midside-equalization.html). Of course, this
 decomposition only works correctly for amplitude-panned sources, because
 the correlation meter in the "Phantom Center" plugin uses zero-lag setting,
 however in practice this approach yields good results for stereo records.
@@ -225,7 +225,7 @@ centered. I ended up wondering why the required interchannel balance is not
 symmetric, and my hypothesis is that first, of course use of non-individual
 HRTFs may cause this, and the second reason may be due to not fully
 symmetric speakers setup in the room (see my [earlier posts on
-LXdesktop](/2024/08/lxmini-desktop-version-lxdesktoppart.md)). In future I
+LXdesktop](/2024/08/lxmini-desktop-version-lxdesktoppart.html)). In future I
 will try to correct that by making a better speaker setup.
 
 ## Fixing the Bass
@@ -252,7 +252,7 @@ below, I decided to check what will happen if I actually add them.
 
 Since I have separate signal paths for the left and right ear, I decided to
 employ [my "almost linear phase" ITD
-filters](/2023/09/almost-linear-phase-crossfeed.md), and I was not
+filters](/2023/09/almost-linear-phase-crossfeed.html), and I was not
 disappointed—the sense of a good deep bass has returned back to my binaural
 renderer! It's interesting that these filters have flat amplitude, they do
 not boost the energy of the bass at all. Yet, somehow adding a correct
