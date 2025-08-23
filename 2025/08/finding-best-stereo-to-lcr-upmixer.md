@@ -15,7 +15,7 @@ between extraction efficiency and resulting audio quality.
 First, let's quickly review approaches that can be used for stereo signal
 upmixing. For a much more comprehensive overview I would recommend checking
 [the PhD thesis work by Sebastian
-Kraft](https://openhsu.ub.hsu-hh.de/bitstream/10.24405/14379/1/openHSU_14379.pdf]. Note
+Kraft](https://openhsu.ub.hsu-hh.de/bitstream/10.24405/14379/1/openHSU_14379.pdf). Note
 that for my purpose I only consider the extraction of the center channel,
 which is one of the simplest form of upmixing. The resulting channel
 configuration is often called "LCR": "Left, Center, Right."
