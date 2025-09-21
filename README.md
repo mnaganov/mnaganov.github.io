@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2025
+  - Sep - [Visualizing Phase Anomalies](2025/09/visualizing-phase-anomalies.md)
   - Aug - [Finding the Best Stereo-to-LCR Upmixer](2025/08/finding-best-stereo-to-lcr-upmixer.md)
   - May - [LXdesktop Headphone Auralization Tuning](2025/05/lxdesktop-headphone-auralization-tuning.md)
 * 2024
