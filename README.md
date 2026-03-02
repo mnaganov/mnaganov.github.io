@@ -2,6 +2,8 @@
 
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
+* 2026
+  - Mar - [On Terminals, Emacs, and AI Coding](2026/03/on-terminals-emacs-and-ai-coding.md)
 * 2025
   - Nov - [LXmini Full Range Driver Alternatives](2025/11/lxmini-full-range-driver-alternatives.md)
   - Sep - [Visualizing Phase Anomalies](2025/09/visualizing-phase-anomalies.md)
