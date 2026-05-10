@@ -4,32 +4,34 @@ I understand that the title of this series of posts sounds maybe too
 scientific, so first I would like to clarify what I’m talking about. Let’s
 state one of the most prominent challenges of audio reproduction. Complex
 sound scenes (for example, music performances by groups of people) always
-contain multiple sound sources. The number of inidividual sound sources in
-an orchestra is vastly bigger than the number of loudspeakers that anyone’s
+contain multiple sound sources. The number of individual sound sources in an
+orchestra is vastly bigger than the number of loudspeakers that anyone’s
 audio system has. Even if we consider a small band and a surround sound
 system with multiple speakers, the problem still exists because the
-performers are not necessarily arranged as the same locations as the
+performers are not necessarily arranged at the same locations as the
 loudspeakers. In addition, in movies sound sources often change their
 location dynamically. Because of that, when we play a recording on an audio
 system, it has to create phantom audio sources originating from locations
 **between** speakers. The simplest speaker setup which allows creating
 phantom sources is the good old stereo, so that’s what we consider here. In
-the context of stereo playback, we have two most problematic phantom
-sources: the phantom center, and the diffuse sound. Let’s start with
-considering the former.
+the context of stereo playback, we have two problematic aspects of
+stereophonic playback: the phantom center and the reproduction of diffuse
+sound fields.
 
 ## Phantom Center
 
 The phantom center phenomenon is very “unnatural” in the sense that it very
 rarely can be achieved in nature since it requires two almost identical
 **synchronized** (in-phase) sources located symmetrically in front of the
-listener. Yet, for some reason our brain seems to harness it just fine.
-Probably because from the physics standpoint, a physical center also
-produces sound pressure level changes at both ears which the brain
-successfully integrates back into a single auditory image. This is why the
-‘synchronized’ property of the sources of the phantom image is important
-here, because when the sources are out of phase, our brain can perceive
-them as two separate auditory events.
+listener. Yet, for some reason our brain seems to harness it just fine. This
+is likely because, from a physics standpoint, a physical center produces
+sound pressure level changes at both ears, which the brain successfully
+integrates into a single auditory image. This is why the ‘synchronized’
+(in-phase) property of the sources is so important. If the signals are out
+of phase, the solid center image collapses into a spatially ambiguous,
+unlocalizable haze; and if they arrive at sufficiently different times,
+binaural fusion breaks completely, causing our brain to perceive them as two
+separate auditory events.
 
 It’s interesting that since the phantom center has been used for such a
 long time in stereo recordings, there are still ongoing debates and
@@ -47,12 +49,15 @@ source is created by combining acoustic waves from two or more neighboring
 speakers, when the wave from each speaker arrives to the listener’s ear at
 slightly different times, their sum can produce both constructive and
 destructive interference. This means, some frequencies will be boosted and
-some attenuated. That in its turn means, the timbre of the phantom image
-will be different from the timbre of a physical source that we are trying to
-imitate with our phantom source. The change of the timbre may also affect
-the perceived location of the source, for example, it can appear to be
-elevated, especially in the absence of visual anchors—this is a
-psychoacoustical problem, a consequence of how the auditory system works.
+some attenuated. This, in turn, means the timbre of the phantom image will
+differ from that of the physical source we are trying to imitate.
+
+The change of the timbre may also affect the perceived location of the
+source, for example, it can appear to be elevated, especially in the absence
+of visual anchors—this is a psychoacoustical problem, a consequence of how
+the auditory system works. As it had been demonstrated by J. Blauert,
+narrow-band signals are perceived at specific elevations depending heavily
+on their center frequency, regardless of the actual sound source location.
 
 Besides being perceived as “warmer” and “fuzzier,” another notable
 difference in the perception of phantom vs. physical sources is better
@@ -71,7 +76,7 @@ The well known solutions for the comb filtering problem are:
     book](https://www.routledge.com/Immersive-Sound-The-Art-and-Science-of-Binaural-and-Multi-Channel-Audio/Roginska-Geluso/p/book/9781138900004))
     and [RACE](https://filmaker.com/papers/RGRM-RACE_rev.pdf).
 
--   For multi-channel and Ambisonics setups the preferred approach is
+-   For multichannel and Ambisonics setups the preferred approach is
     [slight
     decorrelation](https://pub.dega-akustik.de/DAGA_2022/data/articles/000344.pdf)
     of the physical components of a phantom source emitted by each speaker
@@ -79,23 +84,24 @@ The well known solutions for the comb filtering problem are:
     around the listener, and tuning each pair of them for CTC becomes
     impractical.
 
-Besides the comb filtering, there is another intereseting problem which
-affects the phantom center severily. Since the human HRTF differs for the
+Besides the comb filtering, there is another interesting problem which
+affects the phantom center severely. Since the human HRTF differs for the
 frontal and lateral directions, the phantom center created by lateral
 speakers may have different tonality from a frontal physical center just
 because there is a location mismatch: the brain thinks that the sound is
-arriving from the front of the listener so it applies reverse frontal HRTF,
+arriving from the front of the listener, so it applies reverse frontal HRTF,
 but it is a wrong filter because the acoustic waves actually arrive from
 sides. S. Linkwitz thought about this problem and [proposed to use a
 shelving
 filter](https://www.linkwitzlab.com/TMT-Leipzig'10/TMT-Hearing%20spatial%20detail.pdf)
-based on the spherical head model. Whereas, in D. Griesinger’s
-[opinion](http://davidgriesinger.com/Binaural_Techniques.doc) *“the frequency
-response is nearly constant as a sound source moves from zero to ±30 degrees
-in the horizontal plane.”* With all respect to him, I disagree with this
-statement—as we will see, frontal and side HRTFs are significantly
-different. There is actually also a more recent, very detailed research by
-V. Gunnarson (paper [“Spectral Correction of Audio Objects in Stereophonic
+based on the spherical head model. Conversely, D. Griesinger [argues
+that](https://docs.google.com/document/d/1WV_8IMDno9kfUQ3TEOmoZj3VBKw-suQ0/edit?usp=sharing&ouid=100118554650115823766&rtpof=true&sd=true)
+*“the frequency response is nearly constant as a sound source moves from
+zero to ±30 degrees in the horizontal plane.”* With all respect to him, I
+disagree with this statement—as we will see, frontal and side HRTFs are
+significantly different. There is actually also a more recent, very detailed
+research by V. Gunnarson (paper [“Spectral Correction of Audio Objects in
+Stereophonic
 Rendering”](https://uu.diva-portal.org/smash/get/diva2:1854677/FULLTEXT02.pdf)
 from 2024) which clearly shows that the phantom center is affected by the
 differences in HRTF, and this can be corrected using equalization.
@@ -107,15 +113,14 @@ important in stereo sound reproduction. However, there is also less
 noticeable but equally important component of the audio scene: the diffuse
 component which represents “the feeling of the space,” felt mostly
 unconsciously. However, in live performance recordings this component may
-jump to the listener’s attention when they are hearing the auditory
-applauding. The applauses originate from the source spread wide, and
-reinforced by the hall acoustics, creating a huge diffuse source with an
-enveloping feeling.
+jump to the listener’s attention when they are hearing applause. The
+applause originates from a widely spread source, and reinforced by the hall
+acoustics, creating a huge diffuse source with an enveloping feeling.
 
 A stereo system trying to reproduce this diffuse source inevitably
 struggles. The listener’s room may help if it has enough diffusing surfaces,
 and the speakers are located far enough from the listener, but it’s not
-always the case. Multichannel system by design are much better at
+always the case. Multichannel system, by design, are much better at
 reproducing diffuse sources. However, as V. Gunnarson’s paper demonstrates,
 even multichannel sources win from some room-tailored correction for diffuse
 sound, and for a stereo system it’s really essential.
@@ -133,9 +138,9 @@ listener via the diffuse sound field.
 
 In my hobbyist research I decided to explore the following questions:
 
-1.  In the context of a stereo speaker setup, how the difference between the
-    sounding of a physical and phantom center is perceived? And what are
-    the major contributing factors to this difference?
+1.  In the context of a stereo speaker setup, how is the difference between
+    a physical and phantom center perceived? And what are the major
+    contributing factors to this difference?
 
 2.  How should an “ideal” phantom center sound? The ideal phantom center is
     achieved by making sure that the sound waves arriving from a pair of
@@ -148,9 +153,9 @@ In my hobbyist research I decided to explore the following questions:
     conditions.
 
 3.  What can be done in order to make the phantom center produced by stereo
-    speakers to sound similar to a physical center?—or the ideal phantom
-    center. Are the techniques of stereo speaker sound correction such as CTC
-    and decorrelation actually effective for my speaker setup?
+    speakers sound similar to a physical center, or the ideal phantom
+    center? Are the techniques of stereo speaker sound correction such as
+    CTC and decorrelation actually effective for my speaker setup?
 
 4.  Similar questions about the diffuse field reproduction. If I don’t use
     purposefully built diffusers in my room, how can the reproduced diffuse
@@ -158,16 +163,20 @@ In my hobbyist research I decided to explore the following questions:
     the phantom center situation where the reference can be provided easily,
     creating a reference diffuse field in a domestic room is challenging.
 
-5.  If we consider the often used physcoacoustic metric of Inter-Aural
-    Correlation Coefficient [IACC](https://pubs.aip.org/asa/jasa/article/92/4_Supplement/2469/671580/Interaural-cross-correlation-IACC-as-a-measure-of),
-    how does it change between physical and phantom centers? How the IACC
-    metric is affected by phantom center correction?
+5.  If we consider the often used psychoacoustic metric of Inter-Aural
+    Correlation Coefficient
+    [IACC](https://pubs.aip.org/asa/jasa/article/92/4_Supplement/2469/671580/Interaural-cross-correlation-IACC-as-a-measure-of),
+    how does it change between physical and phantom centers? The “Early
+    IACC” (**0–80 ms**) is associated with “Apparent Source Width” (ASW),
+    while the “Late IACC” (**>80 ms**) correlates heavily with “Listener
+    Envelopment” (LEV). How is the IACC metric affected by phantom center
+    correction? Also, can we improve the “feeling of space”?
 
 ## Simulating Phantom Center via Ambisonics Binaural
 
 In order to avoid complications from the issues with room acoustics, let’s
 first evaluate the ideal anechoic case. In the past, researchers had to
-simulate physics of the interactions of a acoustical waves with a spherical
+simulate physics of the interactions of acoustical waves with a spherical
 head model, but these days we can perform a more realistic simulation using
 a binaural renderer. My preferred approach is to encode an acoustic scene
 containing left, right, and center speaker using Ambisonics and then render
@@ -177,8 +186,8 @@ and **BinauralDecoder** configured for the 6th order Ambisonics and
 connected as follows:
 
     3 Channel Source --> MultiEncoder ----> BinauralDecoder --> 2 Channels
-                          -42° azimuth (L)                        L/R Ears
-                           42° azimuth (R)
+                          -42° azimuth (L)                        L/R Ear
+                           42° azimuth (R)                        Signals
                             0° azimuth (C)
 
 This setup simulates an anechoic chamber with the KU-100 being in the center
@@ -190,6 +199,13 @@ answer to
 everything”](https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy)
 but rather because it’s the same angle that I have in my desktop setup.
 
+Side note: although Ambisonics is prone to “spatial aliasing” and in theory
+requires very high orders for reproducing correct magnitude **and** phase at
+high frequencies, the [MagLS
+method](https://pub.dega-akustik.de/DAGA_2023/data/articles/000535.pdf) used
+by **BinauralDecoder** allows to produce correct magnitude **only** even at
+high frequencies with relatively low Ambisonics orders.
+
 Our goal here is to check out two things:
 
 1.  What is the transfer function (EQ) for compensating the HRTF of a source
@@ -198,7 +214,7 @@ Our goal here is to check out two things:
     S. Linkwitz.
 
 2.  What is the EQ for compensating the stereo phantom center to sound like a
-    real, physical center. This way we will double check the existence of the
+    real, physical center. This way we will double-check the existence of the
     *“phantom image problem”*—as Toole calls it, see section 4.3.2 in [the
     4th edition of the “Sound Reproduction”
     book](https://resourcecentre.routledge.com/books/9781032761930), in
@@ -218,19 +234,19 @@ to keep in mind:
 -   When comparing physical and phantom center, their levels must be aligned.
     If we just align the levels of **speakers**, the phantom center will have
     bass twice as loud as the physical center, because of summing. Unlike the
-    sound waves at midrange frequences, the bass audio waves are largely
+    sound waves at midrange frequencies, the bass audio waves are largely
     unaffected by the presence of a head or even a full human torso, and they
     just combine mostly in phase which gives them a considerable boost. I
     suppose, Toole and his colleagues took this fact into account as their
     transfer function looks flat in the bass region.
 
-So, here is the answer to the first question about the difference between
-a side source and the frontal source, and I’ve overlayed it with the EQ
-curve suggested by Linkwitz:
+So, here is the answer to the first question about the difference between a
+side source and the frontal source, and I’ve overlaid it with the EQ curve
+suggested by Linkwitz:
 
-\[42-to-0-KU100sim-vs-LinkwitzEQ.png\]
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAymD81vj59TIGRhZ1nszK49JN5iDidKoUEG3l-2LxYJwfVA-lh7IbO6nnphM7ol8SRiSfkL90uf5865TfGOik_Z59ibFwlEXLrrH7q_GtmAvGOOuk579P0QWtlUramNengeaYBHPNzLfZyRxrmd6FmiFuw6k3iGepCr1mDEneiZrQRSMgtsdAM0zAMpza/s16000/42-to-0-KU100sim-vs-LinkwitzEQ.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAymD81vj59TIGRhZ1nszK49JN5iDidKoUEG3l-2LxYJwfVA-lh7IbO6nnphM7ol8SRiSfkL90uf5865TfGOik_Z59ibFwlEXLrrH7q_GtmAvGOOuk579P0QWtlUramNengeaYBHPNzLfZyRxrmd6FmiFuw6k3iGepCr1mDEneiZrQRSMgtsdAM0zAMpza/s700/42-to-0-KU100sim-vs-LinkwitzEQ.png)
 
-as we see, in general his curve complies with the physical measurement. I
+As we see, in general his curve complies with the physical measurement. I
 would not expect these curves to match completely because Linkwitz was
 tuning his curve in a real room. However, I must note that his curve is
 missing an important energy bump after **11 kHz** that I can actually hear
@@ -245,7 +261,7 @@ I totally understand that minimum phase compensation, like traditional EQ,
 can’t overcome destructive wave interference, however, I’m using EQ curves
 instead of transfer function curves everywhere for consistency.
 
-\[Phantom-to-Phys-KU100sim-vs-Toole.png\]
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqAALcATk68rwVIMIeeoH2-gmDUvjfb9XJZZoU_uZmQ9lPKjLG3pTaiFRc3g-S1khTQyR2Ez-VwmqtGv4kEcNOoxv4MmJxwDhfJLB0PHaFTW2ZEgFLEXoOCTjZBly1qkObaO2qukq8koJpSiLah7wKQ4v4I7nEWRBvOsBTe6AwrbvZqG7dS93gYuK9SNrw/s16000/Phantom-to-Phys-KU100sim-vs-Toole.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqAALcATk68rwVIMIeeoH2-gmDUvjfb9XJZZoU_uZmQ9lPKjLG3pTaiFRc3g-S1khTQyR2Ez-VwmqtGv4kEcNOoxv4MmJxwDhfJLB0PHaFTW2ZEgFLEXoOCTjZBly1qkObaO2qukq8koJpSiLah7wKQ4v4I7nEWRBvOsBTe6AwrbvZqG7dS93gYuK9SNrw/s700/Phantom-to-Phys-KU100sim-vs-Toole.png)
 
 Note that Toole’s data is only up to **5 kHz**. The exact location of
 the EQ “hump” for correcting the dip does not match, probably due to
@@ -265,9 +281,9 @@ disagreement about the diffuse field equalization.
 ## Simulating Diffuse Field via Ambisonics Binaural
 
 Simulating enveloping diffuse field using two speakers is definitely more
-challenging than simulating a discrete center. It is not even entirely
-clear what should be our “reference sound source.” We can imagine an ideal
-isotopic diffuse field which envelops the listener from all directions, but
+challenging than simulating a discrete center. It is not even entirely clear
+what should be our “reference sound source.” We can imagine an ideal
+isotropic diffuse field which envelops the listener from all directions, but
 this would be impossible to reproduce using a pair of speakers placed in
 front of the listener, even with acoustic help from a good listening room.
 
@@ -280,7 +296,7 @@ conditions. So it’s unlikely that it’s even possible to fully converge
 these transfer functions.
 
 If we consider the original goal of the diffuse field spectral correction,
-starting from the “BBC dip,” we can see that it’s original purpose was to
+starting from the “BBC dip,” we can see that its original purpose was to
 [compensate for the difference between the acoustic space of a listening
 room and a concert
 hall](https://www.linkwitzlab.com/images/graphics/harwd.gif) (many thanks to
@@ -291,11 +307,11 @@ for a stereo setup) however he also mentions that the BBC dip was intended
 for the same purpose.
 
 So in my Ambisonics simulation I tried a couple of things. First I tried
-creating a lot of sources behind the listener, spread across the entire
-rear hemisphere, each source playing its own random pink noise source. When
-listened in headphones via **BinauralRenderer** it sounded quite
-enveloping. However, trying to equalize the frontal sources to have the
-same spectral profile yielded unsatisfactory results.
+creating a lot of sources behind the listener, spread across the entire rear
+hemisphere, each playing its own random pink noise. When listened in
+headphones via **BinauralRenderer** it sounded quite enveloping. However,
+trying to equalize the frontal sources to have the same spectral profile
+yielded unsatisfactory results.
 
 Then I restricted the simulated diffuse field to two uncorrelated rear
 sources, placed in symmetry with the front sources, that means at **±138°**.
@@ -312,7 +328,11 @@ For comparison, here are my compensation curve, the BBC dip, and the diffuse
 field compensation curve for stereo speakers (**D/R = 0dB**) which Gunnarson
 sees as the “more detailed correction” than the former:
 
-\[St-to-DF-KU100sim-Gunnarson-vs-BBC-dip.png\]
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLTS4R3Vg4GFoJhwQQKZ3ixrV2ilr8BeAA-tQox0v4Drqr6_B8Eq_Z9mGjJ8McSIrfFHlAv-mTmmorM5q2P_yQr7eZGdOkWxPdqhyDORZ7VnMglS7krJQdqLtuph3X4-eDw4PM2ICimZ2tBzICKLp4Ayy2AQdyPqMN5L2Lv4EaSQd5VDb29HmimTMx56D2/s16000/St-to-DF-KU100sim-Gunnarson-vs-BBC-dip.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLTS4R3Vg4GFoJhwQQKZ3ixrV2ilr8BeAA-tQox0v4Drqr6_B8Eq_Z9mGjJ8McSIrfFHlAv-mTmmorM5q2P_yQr7eZGdOkWxPdqhyDORZ7VnMglS7krJQdqLtuph3X4-eDw4PM2ICimZ2tBzICKLp4Ayy2AQdyPqMN5L2Lv4EaSQd5VDb29HmimTMx56D2/s700/St-to-DF-KU100sim-Gunnarson-vs-BBC-dip.png)
+
+Indeed, we can see that Gunnarson’s curve (green) has the same dip as the
+BBC EQ curve (yellow), and in general it follows the trend of the KU-100
+simulation curve (blue), albeit it is much smoother.
 
 ## Notes on Equalization Approaches
 
@@ -364,16 +384,16 @@ day”*), we can see that all three channels: Left, Center, and Right are
 mutually correlated, and the levels of Left and Right are actually higher
 than of the Center:
 
-\[PF-Time-Correlation.png\]
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzekeq3BoKebSU4FCU7Qc5sl37mUUZwH_sV-uH_S1DeX0jZENiFaNpPz4dAhfi5mB0SfmkvVH8cHSLqPlPr5ch4ZTqccl1uflTeTdCeHgCZVGhRXcTYd99bkQpZXV0jfhO8emSgUREYjGHthdJsH04FtGqRX8AQQdjK38ZStyHxSyR6Aj5yHmYdA_N01pw/s16000/PF-Time-Correlation.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzekeq3BoKebSU4FCU7Qc5sl37mUUZwH_sV-uH_S1DeX0jZENiFaNpPz4dAhfi5mB0SfmkvVH8cHSLqPlPr5ch4ZTqccl1uflTeTdCeHgCZVGhRXcTYd99bkQpZXV0jfhO8emSgUREYjGHthdJsH04FtGqRX8AQQdjK38ZStyHxSyR6Aj5yHmYdA_N01pw/s917/PF-Time-Correlation.png)
 
 That means, the producer intentionally wanted to achieve that classic
-feeling of a phantom center vocals, however it has reinforced it a bit with
+feeling of the phantom center vocal, however it has reinforced it a bit with
 the physical center in order to avoid leaving a hole in the middle if the
 listener has a wide home theater-like setup. The spectrums of the left and
 right channels are not corrected for HRTF and are practically identical to
 the center:
 
-\[PF-Time-Spectrum.png\]
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxJrAFoFMuy4HaYjsKgh7ei_26XL-hSN4uLaxDlhJk7Gu6bBaSrZnl0nQ_fyD7eOX_9iw2NWawAGU2ND7eewQbsK2y-uypyVh7UvZOqFfKH-O-G3UdwqInt0wJn8F-x-iRnuIA25ZZsb3hipkYimJBPdvi9VdyQseuT3a9-R_13wGQknIvhl2PLpi0COWu/s16000/PF-Time-Spectrum.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxJrAFoFMuy4HaYjsKgh7ei_26XL-hSN4uLaxDlhJk7Gu6bBaSrZnl0nQ_fyD7eOX_9iw2NWawAGU2ND7eewQbsK2y-uypyVh7UvZOqFfKH-O-G3UdwqInt0wJn8F-x-iRnuIA25ZZsb3hipkYimJBPdvi9VdyQseuT3a9-R_13wGQknIvhl2PLpi0COWu/s700/PF-Time-Spectrum.png)
 
 I would hypothesize that since the level of the center channel here is much
 lower than of the left and right combined, it gets psychoacoustically
@@ -383,37 +403,50 @@ upmixers also rarely pull all correlated components into the center channel
 (they can do that, but the user has to enforce this setting), spreading them
 instead across the front channels.
 
-Thus, since even use of a multi-channel source still requires some work to
-find the correlated components that form the phantom center acoustic image,
-it’s probably sufficient to use the cheapest and most reliable way for that:
-mid/side processing. By simply summing the signals from the left and the
-right channels of a stereo recording we get a **6 dB** boost for strongly
-correlated components. In fact, many equalizers can work in the “M/S
-mode”—they transform left/right stereo into mid-side, apply the EQ to these
-signals, and then transform them back into stereo. However, if they use
-minimum-phase EQ filters (IIR filters being a typical example), the change
-in the phase that these filters inevitably have on the M/S components
-creates leakage between channels during the reverse transformation into
-stereo, as I [have illustrated
+So, even use of a multichannel source (be it the actual multichannel mix, or
+an upmix of a stereo source) still requires some work to find the correlated
+components that form the phantom center acoustic image. But as I noted in
+[the post on LCR
+upmixing](/2025/08/finding-best-stereo-to-lcr-upmixer.html), extracting
+three channels from two is an ill-posed problem. While modern upmixers are
+excellent, they rely on active steering and decorrelation which inevitably
+alters the phase relationships of the original stereo mix, often introducing
+artifacts on complex or uncorrelated signals.
+
+Paradoxically, the cheapest and most reliable tool—mid/side processing—can
+provide better fidelity by avoiding introducing phase artefacts because it
+does not create any new channels. By simply summing the signals from the
+left and the right channels of a stereo recording we get a **6 dB** boost
+for strongly correlated components. Note that it does not completely isolate
+the center, thus our equalization will affect side-panned sources as well,
+just to a lesser degree.
+
+Many equalizers can work in the “M/S mode”—they transform left/right stereo
+into mid-side, apply the EQ to these signals, and then transform them back
+into stereo. However, if they use minimum-phase EQ filters (IIR filters
+being a typical example), the change in the phase that these filters
+inevitably have on the M/S components creates leakage between channels
+during the reverse transformation into stereo, as I [have illustrated
 previously](/2023/06/on-midside-equalization.html). Thus, a much cleaner
 approach is to use a linear phase M/S equalizer which only affects the
 magnitude of the signals. Note that it’s not without drawbacks, too—linear
 phase filtering can add substantial latency and also may add pre-ringing
-artefacts.
+artifacts.
 
-But linear filtering is what I use in practice, anyways. If the intended
+But linear filtering is what I use in practice, anyway. If the intended
 equalization is relatively simple (like the Linkwitz EQ or the BBC dip),
 then a plugin like [**ToneControl**](https://goodhertz.com/tone-ctrl/) by
 Goodhertz can suffice. However, for a more “surgical” kind of EQ, I use
 [**LP10**](https://ddmf.eu/lp10-linear-phase-equalizer-plugin/) by DDMF. Of
 course, there is always an option to use generic convolution plugins with a
-custom made linear phase FIR filter, that’s in case if **10** bands provided
-by **LP10** is not enough, or when we need to optimize the latency.
+custom-made linear phase FIR filter, that’s in case the **10** bands
+provided by **LP10** are not enough, or when we need to optimize the
+latency.
 
 Note that Linkwitz did not mention that he used anything like M/S EQ for
 his proposed filter. I suppose, he was applying it to the whole stereo
 signal? Same thing for the “BBC dip” which is also considered as the
-“speaker EQ.” This make these approaches more like tweaks on the
+“speaker EQ.” This makes these approaches more like tweaks on the
 room/speaker target curve, rather than actual phantom source correction.
 
 I think, this part was long enough, so I will stop here. In the next part of

@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2026
+  - May - [Spectral Correction of Phantom Audio Sources, Part I](2026/05/spectral-correction-of-phantom-audio.md)
   - Mar - [On Terminals, Emacs, and AI Coding](2026/03/on-terminals-emacs-and-ai-coding.md)
 * 2025
   - Nov - [LXmini Full Range Driver Alternatives](2025/11/lxmini-full-range-driver-alternatives.md)
