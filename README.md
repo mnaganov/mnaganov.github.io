@@ -3,6 +3,7 @@
 This is a mirror of [my personal blog](https://melp242.blogspot.com/). Posts:
 
 * 2026
+  - Jul - [Earspeakers Calibration and Acoustic Measurements](2026/07/earspeakers-calibration-and-acoustic.md)
   - Jun - [Spectral Correction of Phantom Audio Sources, Part II](2026/06/spectral-correction-of-phantom-audio.md)
   - May - [Spectral Correction of Phantom Audio Sources, Part I](2026/05/spectral-correction-of-phantom-audio.md)
   - Mar - [On Terminals, Emacs, and AI Coding](2026/03/on-terminals-emacs-and-ai-coding.md)
